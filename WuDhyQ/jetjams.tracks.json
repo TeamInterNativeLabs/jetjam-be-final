@@ -1,0 +1,5213 @@
+[{
+  "_id": {
+    "$oid": "67be348369f889bc1a187d25"
+  },
+  "name": "Fame 90 - David Bowie",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be348369f889bc1a187d26"
+  },
+  "name": "Room To Move - Animotion",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be348369f889bc1a187d27"
+  },
+  "name": "Everlasting Love - Howard Jones",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:22:11.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be389c69f889bc1a187d39"
+  },
+  "name": "When Its Over - Loverboy",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:39:40.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:39:40.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be389c69f889bc1a187d3a"
+  },
+  "name": "Freedom Overspill - Steve Winwood",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be389c69f889bc1a187d3b"
+  },
+  "name": "Friends - Jody Watley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be389c69f889bc1a187d3c"
+  },
+  "name": "December 1963 - Frankie Valli",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:39:40.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be3e2b69f889bc1a187d56"
+  },
+  "name": "Arobix Step BPM100 Loverboy",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-25T22:03:23.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T22:03:23.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8506378ac759e41e2cee8"
+  },
+  "name": "Fame 90 David Bowie",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T19:56:19.591Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T19:56:19.591Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e852d178ac759e41e2cf14"
+  },
+  "name": "All She Wants To Do Is Dance - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:06:41.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:06:41.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e852d178ac759e41e2cf15"
+  },
+  "name": "Hold You Tight - Tara Kemp",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:06:41.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:06:41.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e852d178ac759e41e2cf16"
+  },
+  "name": "Hippychick - Soho",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:06:41.936Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:06:41.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8538778ac759e41e2cf2a"
+  },
+  "name": "All She Wants To Do Is Dance - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8538778ac759e41e2cf2b"
+  },
+  "name": "Hold You Tight - Tara Kemp",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8538778ac759e41e2cf2c"
+  },
+  "name": "Hippychick - Soho",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:09:43.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8545078ac759e41e2cf3a"
+  },
+  "name": "When Its Over - Loverboy",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8545078ac759e41e2cf3b"
+  },
+  "name": "Freedom Overspill - Steve Winwood",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8545078ac759e41e2cf3c"
+  },
+  "name": "Friends - Jody Watley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8545078ac759e41e2cf3d"
+  },
+  "name": "December 1963 - Frankie Valli",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:13:04.032Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e854e278ac759e41e2cf52"
+  },
+  "name": "Justify My Love - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:15:30.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:15:30.254Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e854e278ac759e41e2cf53"
+  },
+  "name": "Shes Crafty - Beastie Boys",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:15:30.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:15:30.254Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8557678ac759e41e2cf60"
+  },
+  "name": "Close To You - Maxi Priest",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:17:58.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:17:58.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8557678ac759e41e2cf61"
+  },
+  "name": "Tennessee - Arrested Development",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:17:58.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:17:58.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8560d78ac759e41e2cf6e"
+  },
+  "name": "We Will Rock You - Queen",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:20:29.324Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:20:29.324Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8560d78ac759e41e2cf6f"
+  },
+  "name": "No Sleep Til Brooklyn - Beastie Boys",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:20:29.324Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:20:29.324Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8577378ac759e41e2cf7d"
+  },
+  "name": "Just Like You - Robbie Nevel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:26:27.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:26:27.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8577378ac759e41e2cf7e"
+  },
+  "name": "Monkey - George Michael",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:26:27.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:26:27.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8580978ac759e41e2cf8b"
+  },
+  "name": "I Belong To You - Whitney Houston",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:28:57.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:28:57.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8580978ac759e41e2cf8c"
+  },
+  "name": "Wishing Well - Terrence Trent DArby",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:28:57.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:28:57.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e85e1d78ac759e41e2cf9e"
+  },
+  "name": "Disco Dazz - Brick",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e85e1d78ac759e41e2cf9f"
+  },
+  "name": "Rock The Boar - Hues Corporation",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e85e1d78ac759e41e2cfa0"
+  },
+  "name": "Hot Thing - Price",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T20:54:53.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e85f9c78ac759e41e2cfad"
+  },
+  "name": "They Call Me The Candyman - The Candyman",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:01:16.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:01:16.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e85f9c78ac759e41e2cfae"
+  },
+  "name": "Stand By Me - Ben E King",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:01:16.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:01:16.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8603a78ac759e41e2cfc3"
+  },
+  "name": "Gonna Make U Sweat - CC Music Factory",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:03:54.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:03:54.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8603a78ac759e41e2cfc4"
+  },
+  "name": "Certified True - Bar Kays",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:03:54.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:03:54.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8603a78ac759e41e2cfc5"
+  },
+  "name": "Big Time - Peter Gabriel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:03:54.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:03:54.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8611378ac759e41e2cfd1"
+  },
+  "name": "The Power - SNAP",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:07:31.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:07:31.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8611378ac759e41e2cfd2"
+  },
+  "name": "Sign Your Name - Terrence Trent DArby",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:07:31.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:07:31.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e861f378ac759e41e2cfdf"
+  },
+  "name": "Higher Than High - Tony LeMans",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e861f378ac759e41e2cfe0"
+  },
+  "name": "Another One Bites The Dust - Queen",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e861f378ac759e41e2cfe1"
+  },
+  "name": "Ice Ice Baby - Vanilla Ice",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e861f378ac759e41e2cfe2"
+  },
+  "name": "Infatuation - Rod Stewart",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:11:15.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e862f578ac759e41e2cff1"
+  },
+  "name": "Walk The Dinosaur - Was Not Was",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:15:33.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:15:33.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e862f578ac759e41e2cff2"
+  },
+  "name": "Mr Es Beautiful - Eeels",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-29T21:15:33.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T21:15:33.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a0ea78ac759e41e2d016"
+  },
+  "name": "It Takes Two - Seduction",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:39:54.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:39:54.575Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a0ea78ac759e41e2d017"
+  },
+  "name": "Save a Horse - Big and Rich",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a0ea78ac759e41e2d018"
+  },
+  "name": "I've Fallen and I Can't Get Up - Cryptrik",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a0ea78ac759e41e2d019"
+  },
+  "name": "Something Happened On The Way - Phil Collins",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:39:54.576Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a3ad78ac759e41e2d02d"
+  },
+  "name": "Sign Your Name - Terrence Trent D'Arby",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:51:41.492Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:51:41.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a3ad78ac759e41e2d02e"
+  },
+  "name": "What Comes Naturally - Shena Easton",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:51:41.493Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:51:41.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e8a3ad78ac759e41e2d02f"
+  },
+  "name": "Joy & Pain - Rob Base & DJ EZ-Rock",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-30T01:51:41.493Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T01:51:41.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f3a778ac759e41e2d062"
+  },
+  "name": "Freeway of Love - Aretha Franklin",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:45:11.317Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:45:11.317Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f3a778ac759e41e2d063"
+  },
+  "name": "Jump - Pointer Sisters",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:45:11.317Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:45:11.317Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f42478ac759e41e2d070"
+  },
+  "name": "Photograph - Def Leopard",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:47:16.186Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:47:16.186Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f42478ac759e41e2d071"
+  },
+  "name": "Hungry Like The Wolf - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:47:16.186Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:47:16.186Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f4ba78ac759e41e2d07e"
+  },
+  "name": "All She Wants To Do Is Dance - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:49:46.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:49:46.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f4ba78ac759e41e2d07f"
+  },
+  "name": "Let the Music Play - Shannon",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:49:46.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:49:46.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f53878ac759e41e2d08c"
+  },
+  "name": "The Reflex - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:51:52.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:51:52.612Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f53878ac759e41e2d08d"
+  },
+  "name": "All I Need Is A Miracle - Mike & the Mechanics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:51:52.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:51:52.613Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f53878ac759e41e2d08e"
+  },
+  "name": "Fantasy - Aldo Nova",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:51:52.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:51:52.613Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f5be78ac759e41e2d09b"
+  },
+  "name": "Here Comes The Rain Again - Eurythmics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:54:06.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:54:06.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f5be78ac759e41e2d09c"
+  },
+  "name": "Shame - Evelyn Champagne King",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:54:06.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:54:06.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f63378ac759e41e2d0a9"
+  },
+  "name": "Jump - Pointer Sisters",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:56:03.428Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:56:03.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f63378ac759e41e2d0aa"
+  },
+  "name": "Boom Shak-A-Lak - Apache Indian",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:56:03.428Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:56:03.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f6ad78ac759e41e2d0b7"
+  },
+  "name": "Let The Music Play - Shannon",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f6ad78ac759e41e2d0b8"
+  },
+  "name": "Certified True - Bar Kays",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f6ad78ac759e41e2d0b9"
+  },
+  "name": "Big Time - Peter Gabriel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f6ad78ac759e41e2d0ba"
+  },
+  "name": "Funky Cold Madina - Tone Loc",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T01:58:05.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f72e78ac759e41e2d0c7"
+  },
+  "name": "Everybody Have Fun Tonight - Wang Chung",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:00:14.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:00:14.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e9f72e78ac759e41e2d0c8"
+  },
+  "name": "I Touch Myself - Divinyls",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:00:14.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:00:14.451Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea004878ac759e41e2d0dd"
+  },
+  "name": "Livin In America - James Brown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea004878ac759e41e2d0de"
+  },
+  "name": "Black Betty - Ram Jam",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea004878ac759e41e2d0df"
+  },
+  "name": "Situation - Yaz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:39:04.098Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea00c978ac759e41e2d0ec"
+  },
+  "name": "Freak-A-Zoid - Midnight Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:41:13.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:41:13.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea00c978ac759e41e2d0ed"
+  },
+  "name": "Chains of Love - Erasure",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:41:13.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:41:13.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea015878ac759e41e2d0f9"
+  },
+  "name": "Step By Step - New Kids On The Block",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:43:36.785Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:43:36.785Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea015878ac759e41e2d0fa"
+  },
+  "name": "2 Legit - MC Hammer",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:43:36.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:43:36.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea01e378ac759e41e2d107"
+  },
+  "name": "Catch Me I'm Falling - Pretty Poison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea01e378ac759e41e2d108"
+  },
+  "name": "Back In The Saddle Again - Aerosmith",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea01e378ac759e41e2d109"
+  },
+  "name": "I'm Too Sexy - Right Said Fred",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:45:55.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea028178ac759e41e2d116"
+  },
+  "name": "Give It To Me - Rick James",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea028178ac759e41e2d117"
+  },
+  "name": "Sussudio - Phil Collins",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea028178ac759e41e2d118"
+  },
+  "name": "Life of Illusion - Joe Walsh",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:48:33.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea031c78ac759e41e2d125"
+  },
+  "name": "Dancing On The Sun - Smash Mouth",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:51:08.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:51:08.900Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea031c78ac759e41e2d126"
+  },
+  "name": "Hungry Like The Wolf - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:51:08.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:51:08.900Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea031c78ac759e41e2d127"
+  },
+  "name": "You Talk Too Much - Run DMC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:51:08.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:51:08.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea031c78ac759e41e2d128"
+  },
+  "name": "Feak-A-Zoid - Midnight Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:51:08.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:51:08.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea038078ac759e41e2d134"
+  },
+  "name": "Techno Medley v1 - (various Artists)",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:52:48.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:52:48.649Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea03f378ac759e41e2d141"
+  },
+  "name": "Pump Up The Jam - Technotronic",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:54:43.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:54:43.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea03f378ac759e41e2d142"
+  },
+  "name": "Sex As A Weapon - Pat Benetar",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T02:54:43.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T02:54:43.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea7fb778ac759e41e2d161"
+  },
+  "name": "Ballad of John & Yoko - Beatles",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea7fb778ac759e41e2d162"
+  },
+  "name": "Instant Replay - Dan Hartman",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea7fb778ac759e41e2d163"
+  },
+  "name": "Shake It Up - The Cars",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:42:47.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea80bf78ac759e41e2d16d"
+  },
+  "name": "Mony Mony - Billy Idol",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea80bf78ac759e41e2d16e"
+  },
+  "name": "Venus - Bananarama",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea80bf78ac759e41e2d16f"
+  },
+  "name": "The Locomotion - Tiffany",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:47:11.064Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea812e78ac759e41e2d179"
+  },
+  "name": "I Wanna Be A Cowboy - Boys Don't Cry",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:49:02.342Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:49:02.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea812e78ac759e41e2d17a"
+  },
+  "name": "The One Thing - INXS",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:49:02.342Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:49:02.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea81ce78ac759e41e2d184"
+  },
+  "name": "Wild Wild West - Escape Club",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea81ce78ac759e41e2d185"
+  },
+  "name": "Party All The Time - Eddie Murphy",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea81ce78ac759e41e2d186"
+  },
+  "name": "Dancing In The Dark - Bruce Springsteen",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea81ce78ac759e41e2d187"
+  },
+  "name": "We Build This City - Starship",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:51:42.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d191"
+  },
+  "name": "Dress U Up - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d192"
+  },
+  "name": "Jenny 867-5309 - Tommy Tutone",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d193"
+  },
+  "name": "Roam - B-52's",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d194"
+  },
+  "name": "Talk Talk - Talk Talk",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:57:50.463Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d195"
+  },
+  "name": "I Wanna Be A Cowboy - Boys Don't Cry",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T11:57:50.464Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea842078ac759e41e2d19f"
+  },
+  "name": "We Built This City - Starship",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea842078ac759e41e2d1a0"
+  },
+  "name": "Jenny 867-5309 - Tommy Tutone",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea842078ac759e41e2d1a1"
+  },
+  "name": "The Twist - Fat Boys",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea842078ac759e41e2d1a2"
+  },
+  "name": "Vienna Calling - Falco",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:01:36.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea84b578ac759e41e2d1ac"
+  },
+  "name": "Friday I'm In Love - The Cure",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:04:05.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:04:05.976Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea84b578ac759e41e2d1ad"
+  },
+  "name": "Louie Louie - Fat Boys",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:04:05.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:04:05.976Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea85b778ac759e41e2d1b7"
+  },
+  "name": "Long Cool Woman In A Black Dress - The Hollies",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:08:23.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:08:23.664Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea85b778ac759e41e2d1b8"
+  },
+  "name": "Never Been Any Reason - Head East",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:08:23.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:08:23.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ea85b778ac759e41e2d1b9"
+  },
+  "name": "Hold On Loosely - 38 Special",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-03-31T12:08:23.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T12:08:23.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48c2a78ac759e41e2d21c"
+  },
+  "name": "Method Of Moder Love - Hall & Oates",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48c2a78ac759e41e2d21a"
+  },
+  "name": "Lean On Me - Club Neveau",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48c2a78ac759e41e2d21d"
+  },
+  "name": "Summertime - DJ Jazzy Jeff & Fresh Prince",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48c2a78ac759e41e2d21b"
+  },
+  "name": "Fancy Like - Walker Hayes",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:38:34.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d22b"
+  },
+  "name": "Baby Don't Forget My Number - Milli Vanilli",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d22a"
+  },
+  "name": "Jump Kriss Kross",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d227"
+  },
+  "name": "I Wanna Sex U Up - Color Me Badd",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d229"
+  },
+  "name": "Live & Learn - Joe Public",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d22c"
+  },
+  "name": "Stairway To Heaven - Far Corporation",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d228"
+  },
+  "name": "Night Watchman - Tom Petty",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:41:56.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48d8b78ac759e41e2d238"
+  },
+  "name": "House Party - Sam Hunt",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48d8b78ac759e41e2d237"
+  },
+  "name": "Heart & Soul - T'Pau",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48d8b78ac759e41e2d236"
+  },
+  "name": "Magic Carpet Ride - Grand Master Flash",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48d8b78ac759e41e2d239"
+  },
+  "name": "Mama Said Knock U Out - LL Cool J",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:44:27.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d246"
+  },
+  "name": "Wishing Well - Terrence Trent D'Arby",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d247"
+  },
+  "name": "Perfect Way - Scritti Politti",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d243"
+  },
+  "name": "Macarena - Los Del Rio",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d245"
+  },
+  "name": "Treat Me Like A Lady - Five Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d248"
+  },
+  "name": "Sign Of The Times - Prince",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d244"
+  },
+  "name": "Walk On The Wild Side - Jamie J Morgan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:47:08.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d252"
+  },
+  "name": "Girl U Know Its True - Milli Vanilli",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.344Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:50:00.344Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d255"
+  },
+  "name": "One Time's Got No Case - Sir Mix-A-Lot",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d253"
+  },
+  "name": "Slow Motion - Color Me Badd",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.344Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:50:00.344Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d256"
+  },
+  "name": "Boom There She Was - Scritti Politti",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d254"
+  },
+  "name": "I Found Somebody - Glenn Frey",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:50:00.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d260"
+  },
+  "name": "Toms Diner - Suzanne Vega",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d262"
+  },
+  "name": "Jump Around - House of Pain",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d264"
+  },
+  "name": "I Can't Go For That - Hall & Oates",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d261"
+  },
+  "name": "Macarena - Los Del Rio",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d263"
+  },
+  "name": "Limbo Rock - Chubby Checker",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d265"
+  },
+  "name": "Mama Said Knock U Out - LL Cool J",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:52:58.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d271"
+  },
+  "name": "All Around The World - Lisa Standfield",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d26f"
+  },
+  "name": "Typical Male - Tina Turner",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d272"
+  },
+  "name": "Keep It Together - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d270"
+  },
+  "name": "Oh Girl - Dino",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:55:18.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d273"
+  },
+  "name": "Someday - Glass Tiger",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.751Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:55:18.751Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d27d"
+  },
+  "name": "Give Me One Reason - Tracy Chapman",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d282"
+  },
+  "name": "Hold Me Now - Thompson Twins",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d27e"
+  },
+  "name": "I'm A Girl Watcher - Papa Ron Love",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d27f"
+  },
+  "name": "Come Together Mash - Beatles",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d280"
+  },
+  "name": "Higher Love - Steve Winwood",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d281"
+  },
+  "name": "Everlasting Love - Howard Jones",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T02:58:26.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d4c278ac759e41e2d353"
+  },
+  "name": "Room At The Top - Adam Ant",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d4c278ac759e41e2d354"
+  },
+  "name": "Strokin - Clearence Carter",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d4c278ac759e41e2d355"
+  },
+  "name": "Double Dutch Bus - Frankie Smith",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:12:50.152Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d53478ac759e41e2d363"
+  },
+  "name": "Back In The Saddle - Aerosmith",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:14:44.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:14:44.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d53478ac759e41e2d364"
+  },
+  "name": "I'm Too Sexy - Right Said Fred",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:14:44.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:14:44.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d59178ac759e41e2d371"
+  },
+  "name": "Der Kommissar - After The Fire",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:16:17.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:16:17.857Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d59178ac759e41e2d372"
+  },
+  "name": "Chains of Love - Erasure",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:16:17.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:16:17.858Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d59178ac759e41e2d373"
+  },
+  "name": "More Than You Know - Martika",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:16:17.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:16:17.858Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d5f878ac759e41e2d380"
+  },
+  "name": "More Than A Woman - Bee Gees",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:18:00.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:18:00.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d5f878ac759e41e2d381"
+  },
+  "name": "Walk On The Wild Side - Jamie J Morgan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:18:00.015Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:18:00.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d67f78ac759e41e2d38f"
+  },
+  "name": "Get Outta My Dreams Into My Car - Billy Ocean",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:20:15.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:20:15.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d67f78ac759e41e2d390"
+  },
+  "name": "Full Circle - Company B",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d67f78ac759e41e2d391"
+  },
+  "name": "When I Look Into Your Eyes - Pretty Poison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d67f78ac759e41e2d392"
+  },
+  "name": "This Time I Know It's For Real - Donna Summer",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:20:15.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d70d78ac759e41e2d39f"
+  },
+  "name": "Old Time Rock N Roll - Bob Seager",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:22:37.684Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:22:37.684Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d70d78ac759e41e2d3a0"
+  },
+  "name": "It's Tricky /Sweet Child of Mine Mash - Run DMC Guns Roses",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d70d78ac759e41e2d3a1"
+  },
+  "name": "We Don't Have To Take Our Clothes Off - Jermaine Steward",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d70d78ac759e41e2d3a2"
+  },
+  "name": "Let's Dance - David Bowie",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:22:37.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d76678ac759e41e2d3af"
+  },
+  "name": "On Our Own - Bobby Brown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d76678ac759e41e2d3b0"
+  },
+  "name": "Keep It Together - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d76678ac759e41e2d3b1"
+  },
+  "name": "Cry - Waterfront",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:24:06.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d7d578ac759e41e2d3be"
+  },
+  "name": "Chic - La Chic",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d7d578ac759e41e2d3bf"
+  },
+  "name": "Catch Me I'm Falling - Pretty Poison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d7d578ac759e41e2d3c0"
+  },
+  "name": "Back In The Saddle Again - Aerosmith",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:25:57.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d83c78ac759e41e2d3cd"
+  },
+  "name": "Do It Again - Club House",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d83c78ac759e41e2d3ce"
+  },
+  "name": "Physical - Olivia Newton John",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d83c78ac759e41e2d3cf"
+  },
+  "name": "Do Ya Think I'm Sexy - Rod Stewart",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:27:40.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d89178ac759e41e2d3dc"
+  },
+  "name": "Photograph - Def Leopard",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:29:05.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:29:05.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d89178ac759e41e2d3dd"
+  },
+  "name": "Hungry Like The Wolf - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:29:05.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:29:05.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d8f278ac759e41e2d3ea"
+  },
+  "name": "I Touch Myself - Divinyls",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:30:42.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:30:42.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d8f278ac759e41e2d3eb"
+  },
+  "name": "Photograph - Def Leopard",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:30:42.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:30:42.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d94778ac759e41e2d3f8"
+  },
+  "name": "All She Wants To Do Is Dance - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:32:07.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:32:07.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d94778ac759e41e2d3f9"
+  },
+  "name": "Let the Music Play - Shannon",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:32:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:32:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d94778ac759e41e2d3fa"
+  },
+  "name": "Certified True - Bar Kays",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:32:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:32:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9a478ac759e41e2d407"
+  },
+  "name": "This Time I Know It's For Real - Donna Summer",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9a478ac759e41e2d408"
+  },
+  "name": "Sleeping Bag - ZZ Top",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9a478ac759e41e2d409"
+  },
+  "name": "Jungle Love - The Time",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:33:40.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9f578ac759e41e2d416"
+  },
+  "name": "The Reflex - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:35:01.840Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:35:01.840Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9f578ac759e41e2d417"
+  },
+  "name": "All I Need Is A Miracle - Mike & the Mechanics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:35:01.841Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:35:01.841Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6d9f578ac759e41e2d418"
+  },
+  "name": "Fantasy - Aldo Nova",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:35:01.841Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:35:01.841Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6da4978ac759e41e2d425"
+  },
+  "name": "Here Comes The Rain Again - Eurythmics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:36:25.072Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:36:25.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6da4978ac759e41e2d426"
+  },
+  "name": "Shame - Evelyn Champagne King",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:36:25.072Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:36:25.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6daa578ac759e41e2d433"
+  },
+  "name": "Dreams - Fleetwood Mac",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6daa578ac759e41e2d434"
+  },
+  "name": "Once In A Lifetime - Talking Heads",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6daa578ac759e41e2d435"
+  },
+  "name": "Stuck In The Middle With You - Jeff Healey",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:37:57.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db0478ac759e41e2d441"
+  },
+  "name": "Hot Blooded - Foreigner",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:39:32.997Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:39:32.997Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db0478ac759e41e2d442"
+  },
+  "name": "Power Of Love - Huey Lewis & The News",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:39:32.998Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:39:32.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db0478ac759e41e2d443"
+  },
+  "name": "Vogue - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:39:32.998Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:39:32.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db9578ac759e41e2d450"
+  },
+  "name": "State Of Shock - Michael Jackson & Mick Jagger",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db9578ac759e41e2d451"
+  },
+  "name": "American Soviets - C.C.C.P.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6db9578ac759e41e2d452"
+  },
+  "name": "Der Kommissar - After The Fire",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:41:57.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dc3878ac759e41e2d45f"
+  },
+  "name": "Shake Your Body Down To The Ground - The Jacksons",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dc3878ac759e41e2d460"
+  },
+  "name": "Groove Is In The Heart - DeeLite",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dc3878ac759e41e2d461"
+  },
+  "name": "Pride In The Name Of Love - Clivilles & Cole",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:44:40.703Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dcda78ac759e41e2d471"
+  },
+  "name": "Livin In America - James Brown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dcda78ac759e41e2d472"
+  },
+  "name": "Black Betty - Ram Jam",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dcda78ac759e41e2d473"
+  },
+  "name": "Situation - Yazz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:47:22.642Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd3078ac759e41e2d480"
+  },
+  "name": "Walk On The Wild Side - Jamie J Morgan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd3078ac759e41e2d481"
+  },
+  "name": "Romeo - Dino",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd3078ac759e41e2d482"
+  },
+  "name": "Tender Lover - Babyface",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:48:48.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd9678ac759e41e2d48f"
+  },
+  "name": "Stuck In The Middle With You - Jeff Healey",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:50:30.596Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:50:30.596Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd9678ac759e41e2d490"
+  },
+  "name": "My Best Friend's Girl - The Cars",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:50:30.597Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:50:30.597Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dd9678ac759e41e2d491"
+  },
+  "name": "Who Stole My Monkey - Zachary Richards",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:50:30.597Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:50:30.597Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dde578ac759e41e2d49e"
+  },
+  "name": "Since You've Been Gone - Kelly Clarkson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:51:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:51:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dde578ac759e41e2d49f"
+  },
+  "name": "I Can't Wait - Stevie Nicks",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:51:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:51:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6de5578ac759e41e2d4ad"
+  },
+  "name": "Crazy In The Night - Kim Carnes",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6de5578ac759e41e2d4ae"
+  },
+  "name": "Some Kind Of Lover - Jody Watley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6de5578ac759e41e2d4af"
+  },
+  "name": "Night Time - Pretty Poison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6de5578ac759e41e2d4b0"
+  },
+  "name": "Other Woman - Ray Parker Jr.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:53:41.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dea378ac759e41e2d4bd"
+  },
+  "name": "Love's Got Me - Loose Ends",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:54:59.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:54:59.458Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dea378ac759e41e2d4be"
+  },
+  "name": "On Our Own - Bobby Brown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:54:59.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:54:59.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6defd78ac759e41e2d4cb"
+  },
+  "name": "Vogue - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:56:29.718Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:56:29.718Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6defd78ac759e41e2d4cc"
+  },
+  "name": "Long Time - Boston",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:56:29.718Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:56:29.718Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6defd78ac759e41e2d4cd"
+  },
+  "name": "Can't Get Enough - Smash Mouth",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:56:29.719Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:56:29.719Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6df5578ac759e41e2d4da"
+  },
+  "name": "2 legit - MC Hammer",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:57:57.852Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:57:57.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6df5578ac759e41e2d4db"
+  },
+  "name": "Get Up - Technotronic",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:57:57.853Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:57:57.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6df5578ac759e41e2d4dc"
+  },
+  "name": "I Feel For You - Chaka Khan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:57:57.853Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:57:57.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dfb578ac759e41e2d4e9"
+  },
+  "name": "Who Can It Be Now - Men At Work",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:59:33.894Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:59:33.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dfb578ac759e41e2d4ea"
+  },
+  "name": "Wild Thing - Tone Loc",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:59:33.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:59:33.895Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6dfb578ac759e41e2d4eb"
+  },
+  "name": "I'm Too Sexy - Right Said Fred",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T20:59:33.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T20:59:33.895Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6e01378ac759e41e2d4f8"
+  },
+  "name": "Billy Jean - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6e01378ac759e41e2d4f9"
+  },
+  "name": "Word Up - Cameo",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f6e01378ac759e41e2d4fa"
+  },
+  "name": "Sidewalk Talk - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T21:01:07.506Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d3dc1075e34aeefe6ce5"
+  },
+  "name": "Jam - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:21:16.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:21:16.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d3dc1075e34aeefe6ce6"
+  },
+  "name": "Bring Me Edelweiss - Edelweiss",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:21:16.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:21:16.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d3dc1075e34aeefe6ce7"
+  },
+  "name": "Opportunities - Pet Shop Boys",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:21:16.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:21:16.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d3dc1075e34aeefe6ce8"
+  },
+  "name": "Situation - Yazz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:21:16.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:21:16.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d46a1075e34aeefe6cf4"
+  },
+  "name": "Wanna Be Startin Something - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:23:38.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:23:38.116Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d46a1075e34aeefe6cf5"
+  },
+  "name": "Hitman - AB Logic",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:23:38.117Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:23:38.117Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d46a1075e34aeefe6cf6"
+  },
+  "name": "Take A Little Trip - Alabama",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:23:38.117Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:23:38.117Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5001075e34aeefe6d33"
+  },
+  "name": "Freak-A-Zoid - Midnight Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:26:08.966Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:26:08.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5001075e34aeefe6d34"
+  },
+  "name": "Chains of Love - Erasure",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:26:08.966Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:26:08.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5831075e34aeefe6d41"
+  },
+  "name": "Jump Start My Heart - Natalie Cole",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5831075e34aeefe6d42"
+  },
+  "name": "Dangerous - Roxette",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5831075e34aeefe6d43"
+  },
+  "name": "Harlem Shuffle - Rolling Stones",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:28:19.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5ea1075e34aeefe6d50"
+  },
+  "name": "Give It To Me - Rick James",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5ea1075e34aeefe6d51"
+  },
+  "name": "Sussudio - Phil Collins",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d5ea1075e34aeefe6d52"
+  },
+  "name": "Life of Illusion - Joe Walsh",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:30:02.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6581075e34aeefe6d5f"
+  },
+  "name": "I'm Too Sexy - Right Said Fred",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6581075e34aeefe6d60"
+  },
+  "name": "All She Wants To Do Is Dance - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6581075e34aeefe6d61"
+  },
+  "name": "Funkytown - Lipps Inc.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:31:52.335Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6cf1075e34aeefe6d6e"
+  },
+  "name": "It Takes Two - Rob Base & DJ E-Z Rock",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6cf1075e34aeefe6d6f"
+  },
+  "name": "Poison - Bel Biv DeVoe",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d6cf1075e34aeefe6d70"
+  },
+  "name": "Billy Jean - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:33:51.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d76e1075e34aeefe6d7d"
+  },
+  "name": "Do Ya Think I'm Sexy - Rod Stewart",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d76e1075e34aeefe6d7e"
+  },
+  "name": "I Hate Myself For Lovin You - Joan Jett",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d76e1075e34aeefe6d7f"
+  },
+  "name": "Miss Me Blind - Culture Club",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:36:30.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d7c91075e34aeefe6d8c"
+  },
+  "name": "Push It - Salt N Pepa",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d7c91075e34aeefe6d8d"
+  },
+  "name": "Birthday Suit - Johnny Kemp",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d7c91075e34aeefe6d8e"
+  },
+  "name": "I Feel For You - Chaka Khan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:38:01.420Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d82a1075e34aeefe6d9b"
+  },
+  "name": "Let The Music Play - Shannon",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d82a1075e34aeefe6d9c"
+  },
+  "name": "Certified True - Bar Kays",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d82a1075e34aeefe6d9d"
+  },
+  "name": "Big Time - Peter Gabriel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d82a1075e34aeefe6d9e"
+  },
+  "name": "Funky Cold Madina - Tone Loc",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:39:38.957Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d8991075e34aeefe6dab"
+  },
+  "name": "Walking On The Sun - Smash Mouth",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d8991075e34aeefe6dac"
+  },
+  "name": "Hungry Like The Wolf - Duran Duran",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d8991075e34aeefe6dad"
+  },
+  "name": "You Talk Too Much - Run DMC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d8991075e34aeefe6dae"
+  },
+  "name": "Feak-A-Zoid - Midnight Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:41:29.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9291075e34aeefe6dbc"
+  },
+  "name": "Object Of My Desire - Starpoint",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9291075e34aeefe6dbd"
+  },
+  "name": "Walking Away - Information Society",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9291075e34aeefe6dbe"
+  },
+  "name": "Crazy In The Night - Kim Carnes",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9291075e34aeefe6dbf"
+  },
+  "name": "Some Kind Of Lover - Jody Watley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:43:53.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9971075e34aeefe6dcd"
+  },
+  "name": "Cantaloop - Us3",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:45:43.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:45:43.408Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9971075e34aeefe6dce"
+  },
+  "name": "Vogue - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:45:43.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:45:43.409Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9971075e34aeefe6dcf"
+  },
+  "name": "Room At The Top - Adam Ant",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:45:43.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:45:43.409Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9e71075e34aeefe6ddc"
+  },
+  "name": "Everybody Have Fun Tonight - Wang Chung",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:47:03.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:47:03.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7d9e71075e34aeefe6ddd"
+  },
+  "name": "I Touch Myself - Divinyls",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:47:03.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:47:03.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7da981075e34aeefe6dea"
+  },
+  "name": "Don't Go - Yazz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:50:00.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:50:00.592Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7da981075e34aeefe6deb"
+  },
+  "name": "Our Lipps Are Sealed - The Go Go's",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:50:00.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:50:00.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7da981075e34aeefe6dec"
+  },
+  "name": "Don't Talk To Strangers - Rick Springfield",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:50:00.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:50:00.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7daf71075e34aeefe6dfb"
+  },
+  "name": "Situation - Yazz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:51:35.739Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:51:35.739Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7daf71075e34aeefe6dfc"
+  },
+  "name": "Robo Cop - B.O.S.E.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:51:35.740Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:51:35.740Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7daf71075e34aeefe6dfd"
+  },
+  "name": "Operator - Midnight Star",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-04-10T14:51:35.740Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:51:35.740Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681e6d34b3cb0ceb61430647"
+  },
+  "name": "testing",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-09T21:01:40.972Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T21:01:40.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681e6d44b3cb0ceb6143064a"
+  },
+  "name": "testing",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-09T21:01:56.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T21:01:56.409Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681e6d50b3cb0ceb6143064d"
+  },
+  "name": "testing",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-09T21:02:08.601Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T21:02:08.601Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f0"
+  },
+  "name": "Mama Juanita - 2 Live Crew",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f1"
+  },
+  "name": "Died In Your Arms - Cutting Crew",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f2"
+  },
+  "name": "Stacey's Mom - Fountain Of Youth",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f3"
+  },
+  "name": "Pretty Woman - Roy Orbison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f4"
+  },
+  "name": "Take Me With U - Prince",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.698Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7421"
+  },
+  "name": "Have A Drink On Me - AC DC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.289Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7422"
+  },
+  "name": "Slippin' Away - Dave Edmonds",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.289Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7423"
+  },
+  "name": "Send Me An Angel - Real Life",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7424"
+  },
+  "name": "Abracadabra - Steve Miller Band",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7425"
+  },
+  "name": "Only Human - Billy Joel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.290Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817d57fa7788ee696e747c"
+  },
+  "name": "Everybody Everybody - Black Box",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817d57fa7788ee696e747d"
+  },
+  "name": "Let's Hear It For The Boys - Denice Williams",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817d57fa7788ee696e747e"
+  },
+  "name": "Rhythm Is Gonna Get You - Gloria Estefan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817d57fa7788ee696e747f"
+  },
+  "name": "If U Leave - OMD",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:24:55.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817e90fa7788ee696e748c"
+  },
+  "name": "Right On Track - Breakfast Club",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817e90fa7788ee696e748d"
+  },
+  "name": "Bad - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817e90fa7788ee696e748e"
+  },
+  "name": "Rock In A Hard Place - Rolling Stones",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817e90fa7788ee696e748f"
+  },
+  "name": "Let It Rock - Kevin Rudolf",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:30:08.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68817f81fa7788ee696e749c"
+  },
+  "name": "( various classic rock )",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:34:09.492Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:34:09.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74a9"
+  },
+  "name": "That's What I Like - Cooly Live",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.248Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74aa"
+  },
+  "name": "It Takes Two - Rob Base & DJ EZ-Rock",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.248Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74ab"
+  },
+  "name": "Good Vibrations - Marky Mark & The Funky Bunch",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74ac"
+  },
+  "name": "Nighttime - Pretty Poison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74ad"
+  },
+  "name": "What's On Your Mind - Information Society",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74ba"
+  },
+  "name": "Land Of Confusion - Genesis",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74bb"
+  },
+  "name": "Fascinated - Company B",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74bc"
+  },
+  "name": "Tell It To My Heart - Taylor Dayne",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74bd"
+  },
+  "name": "Full Circle - Company B",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74be"
+  },
+  "name": "Who Found Who - Jellybean",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74bf"
+  },
+  "name": "Cross My Broken Heart - The Jets",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74c0"
+  },
+  "name": "( 8 more songs )",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74ce"
+  },
+  "name": "Get On Your Feet - Gloria Estefan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74cf"
+  },
+  "name": "Sausalito Summernights - Diesel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74d0"
+  },
+  "name": "Burnin' For You - Blue Oyster Cult",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74d1"
+  },
+  "name": "Invincible - Pat Benetar",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74d2"
+  },
+  "name": "How Will I Know - Whitney Houston",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74d3"
+  },
+  "name": "Sunglasses At Night - Corey Hart",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f3"
+  },
+  "name": "Just Got Paid - Johnny Kemp",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f4"
+  },
+  "name": "Be Near Me - ABC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f5"
+  },
+  "name": "Broadway - George Benson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f6"
+  },
+  "name": "I Can't Wait - Fleetwood Mac",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f7"
+  },
+  "name": "Drivin' With Your Eyes Closed - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f8"
+  },
+  "name": "Smooth Criminal - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74f9"
+  },
+  "name": "Have A Drink On Me - AC DC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e7506"
+  },
+  "name": "Where's The Party - Madonna",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.269Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e7507"
+  },
+  "name": "Don't Want To Fall In Love - Jane Child",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.269Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e7508"
+  },
+  "name": "Billy Jean - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e7509"
+  },
+  "name": "Word Up - Cameo",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e750a"
+  },
+  "name": "Shattered Dreams - Johnny Hates Jazz",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e7517"
+  },
+  "name": "It Takes Two - Seduction",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e7518"
+  },
+  "name": "Save A Horse - Big & Rick",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e7519"
+  },
+  "name": "I've Fallen And I Can't Get Up - Cryptrik",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e751a"
+  },
+  "name": "Something Happened On The Way - Phil Collins",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e751b"
+  },
+  "name": "The Candy Man - Candyman",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e751c"
+  },
+  "name": "Stand By Me - Ben E King",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e7529"
+  },
+  "name": "Losing U - Uptown",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e752a"
+  },
+  "name": "Electric Avenue - Eddie Grant",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e752b"
+  },
+  "name": "Control - Janet Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e752c"
+  },
+  "name": "Situation - Yazoo",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e752d"
+  },
+  "name": "Room At The Top - Adam Ant",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e752e"
+  },
+  "name": "Who Made Who - AC DC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81d4"
+  },
+  "name": "Mama Juanita - 2 Live Crew",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81d5"
+  },
+  "name": "Died In Your Arms - Cutting Crew",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81d6"
+  },
+  "name": "Stacey's Mom - Fountain Of Youth",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81d7"
+  },
+  "name": "Pretty Woman - Roy Orbison",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81d8"
+  },
+  "name": "Take Me With U - Prince",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81e6"
+  },
+  "name": "Have A Drink On Me - AC DC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81e7"
+  },
+  "name": "Slippin' Away - Dave Edmonds",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81e8"
+  },
+  "name": "Sind Me An Angel - Real Life",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81e9"
+  },
+  "name": "Abracadabra - Steve Miller Band",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81ea"
+  },
+  "name": "Only Human - Billy Joel",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cd5bfa7788ee696e81f7"
+  },
+  "name": "Everybody Everybody - Black Box",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cd5bfa7788ee696e81f8"
+  },
+  "name": "Let's Hear It For The Boy - Deniece Williams",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cd5bfa7788ee696e81f9"
+  },
+  "name": "Rhythm Is Gonna Get You - Gloria Estefan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:18:35.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cd5bfa7788ee696e81fa"
+  },
+  "name": "If You Leave -OMD",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:18:35.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:18:35.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cee3fa7788ee696e820c"
+  },
+  "name": "Everybody Everybody - Black Box",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cee3fa7788ee696e820d"
+  },
+  "name": "Let's Hear It For The Boy - Deniece Williams",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cee3fa7788ee696e820e"
+  },
+  "name": "Rhythm Is Gonna Get You - Gloria Estefan",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882cee3fa7788ee696e820f"
+  },
+  "name": "If You Leave - OMD",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:25:07.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e821c"
+  },
+  "name": "Come Into My House - Queen Latifah",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e821d"
+  },
+  "name": "Jerk Out - The Time",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e821e"
+  },
+  "name": "Groove Is In The Heart - Deee-Lite",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e821f"
+  },
+  "name": "Just Another Dream - Cathy Dennis",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e8220"
+  },
+  "name": "Don't You Want My Love - Jomanda",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e8221"
+  },
+  "name": "Pump Up The Jam - Technotronic",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e8222"
+  },
+  "name": "( more... )",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e822f"
+  },
+  "name": "Stomp & Grind - Half Pint",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8230"
+  },
+  "name": "Cupid Shuffle - Cupid",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8231"
+  },
+  "name": "Te Extrano - Xtreme",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8232"
+  },
+  "name": "Party Rock - Anthem",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8233"
+  },
+  "name": "Wild Wild West - Escape Club",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8234"
+  },
+  "name": "Danza Kuduro - Lucenzo",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8235"
+  },
+  "name": "Lowrider - Latin Aliance",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8241"
+  },
+  "name": "Just Got Paid - Johnny Kemp",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8242"
+  },
+  "name": "Be Near Me - ABC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8243"
+  },
+  "name": "Broadway - George Benson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8244"
+  },
+  "name": "I Can't Wait - Stevie Nicks",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8245"
+  },
+  "name": "Driving With Your Eyes Closed - Don Henley",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8246"
+  },
+  "name": "Smooth Criminal - Michael Jackson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8247"
+  },
+  "name": "Have A Drink On Me - AC DC",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e825f"
+  },
+  "name": "Don't Rush Me - Taylor Dayne",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8260"
+  },
+  "name": "I'm From The Country - Tracy Byrd",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8261"
+  },
+  "name": "Turn The Beat Around - Vickie Sue Robinson",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8262"
+  },
+  "name": "Pac-Man Fever - Buckner & Garcia",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8263"
+  },
+  "name": "No More Words - Berlin",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8264"
+  },
+  "name": "Hello Again - The Cars",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.296Z"
+  }
+}]

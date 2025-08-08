@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "name": "Pop",
+  "createdAt": {
+    "$date": "2024-12-19T07:20:01.495Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-19T07:20:01.495Z"
+  },
+  "__v": 0,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6763c9273ec71f920243b845"
+  },
+  "name": "Rock",
+  "createdAt": {
+    "$date": "2024-12-19T07:20:07.351Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-19T07:20:07.351Z"
+  },
+  "__v": 0,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6763c92c3ec71f920243b849"
+  },
+  "name": "County",
+  "createdAt": {
+    "$date": "2024-12-19T07:20:12.505Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-19T07:20:12.505Z"
+  },
+  "__v": 0,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "68073134b3cb0ceb61430237"
+  },
+  "name": "Jazz",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-22T06:03:32.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T06:03:32.775Z"
+  },
+  "__v": 0
+}]

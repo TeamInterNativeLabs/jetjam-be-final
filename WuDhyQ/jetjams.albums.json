@@ -1,0 +1,4387 @@
+[{
+  "_id": {
+    "$oid": "67be3e2b69f889bc1a187d58"
+  },
+  "name": "Arobx Loverboy - Hold On",
+  "description": "Loverboy - Hold ON",
+  "image": "uploads/images/Arobix Dance Warm Up 7min Loverboy_1740521000413.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67be3e2b69f889bc1a187d56"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM100 Loverboy_1740521003464.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-02-25T22:03:23.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:03.374Z"
+  },
+  "__v": 0,
+  "free": true
+},
+{
+  "_id": {
+    "$oid": "67e8506378ac759e41e2ceea"
+  },
+  "name": "7 Min BPM100 David Bowie Fame 90",
+  "description": "7 Min BPM100 David Bowie Fame 90",
+  "image": "uploads/images/7min BPM100 David Bowie Fame 90_1743278176609.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8506378ac759e41e2cee8"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 David Bowie_1743278179068.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T19:56:19.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:03.574Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8538778ac759e41e2cf2e"
+  },
+  "name": "7 Min BPM100 Don Henley",
+  "description": "7 Min BPM100 Don Henley - All She Wants To Do Is Dance",
+  "image": "uploads/images/7min BPM100 Don Henley Dirty laundry_1743278980524.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8538778ac759e41e2cf2a"
+    },
+    {
+      "$oid": "67e8538778ac759e41e2cf2b"
+    },
+    {
+      "$oid": "67e8538778ac759e41e2cf2c"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Don Henley_1743278982695.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:09:43.220Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:03.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8545078ac759e41e2cf3f"
+  },
+  "name": "7 Min BPM100 Loverboy",
+  "description": "7 Min BPM100 Loverboy - When Its Over",
+  "image": "uploads/images/7min Loverboy When Its Over_1743279181455.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8545078ac759e41e2cf3a"
+    },
+    {
+      "$oid": "67e8545078ac759e41e2cf3b"
+    },
+    {
+      "$oid": "67e8545078ac759e41e2cf3c"
+    },
+    {
+      "$oid": "67e8545078ac759e41e2cf3d"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Loverboy_1743279183624.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:13:04.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:04.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e854e278ac759e41e2cf55"
+  },
+  "name": "7 Min BPM100 Madonna Justify My Love",
+  "description": "7 Min BPM100 Madonna Justify My Love",
+  "image": "uploads/images/7min BPM100 Madonna Justify My Love_1743279327789.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e854e278ac759e41e2cf52"
+    },
+    {
+      "$oid": "67e854e278ac759e41e2cf53"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Madonna Justify My Love_1743279329871.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:15:30.372Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:04.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8557678ac759e41e2cf63"
+  },
+  "name": "7 Min BPM100 Maxi Priest Close To You",
+  "description": "7 Min BPM100 Maxi Priest Close To You",
+  "image": "uploads/images/7min BPM100 Maxi Priest Close To You_1743279475765.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8557678ac759e41e2cf60"
+    },
+    {
+      "$oid": "67e8557678ac759e41e2cf61"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Maxi Priest_1743279478034.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:17:58.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:04.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8560d78ac759e41e2cf71"
+  },
+  "name": "7 Min BPM100 Queen We Will Rock You",
+  "description": "7 Min BPM100 Queen We Will Rock You",
+  "image": "uploads/images/7min BPM100 Queen We Will Rock You_1743279625481.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8560d78ac759e41e2cf6e"
+    },
+    {
+      "$oid": "67e8560d78ac759e41e2cf6f"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Queen_1743279628979.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:20:29.445Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:05.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8577378ac759e41e2cf80"
+  },
+  "name": "7 Min BPM100 Robbie Nevel Just Like You",
+  "description": "7 Min BPM100 Robbie Nevel Just Like You",
+  "image": "uploads/images/7min BPM100 Robbie Nevil Just Like You_1743279985335.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8577378ac759e41e2cf7d"
+    },
+    {
+      "$oid": "67e8577378ac759e41e2cf7e"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Robbie Nevel_1743279987501.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:26:27.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:05.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8580978ac759e41e2cf8e"
+  },
+  "name": "7 Min BPM100 Whitney Houston I Belong To You",
+  "description": "7 Min BPM100 Whitney Houston I Belong To You",
+  "image": "uploads/images/7min BPM100 Whitney Houston I Belong To You_1743280134881.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8580978ac759e41e2cf8b"
+    },
+    {
+      "$oid": "67e8580978ac759e41e2cf8c"
+    }
+  ],
+  "file": "uploads/audio/7min BPM100 Whitney Houston_1743280136906.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:28:57.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:05.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e85e1d78ac759e41e2cfa2"
+  },
+  "name": "7 Min BPM110 Brick Disco Dazz",
+  "description": "7 Min BPM110 Brick Disco Dazz",
+  "image": "uploads/images/7min BPM110 Brick Disco Dazz 2_1743281691151.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e85e1d78ac759e41e2cf9e"
+    },
+    {
+      "$oid": "67e85e1d78ac759e41e2cf9f"
+    },
+    {
+      "$oid": "67e85e1d78ac759e41e2cfa0"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Brick_1743281693220.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T20:54:53.789Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:05.607Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e85f9c78ac759e41e2cfb0"
+  },
+  "name": "7 Min BPM110 The Candyman They Call Me The Candyman",
+  "description": "7 Min BPM110 The Candyman They Call Me The Candyman",
+  "image": "uploads/images/7min BPM110 Candyman They Call Me Candyman_1743282073640.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e85f9c78ac759e41e2cfad"
+    },
+    {
+      "$oid": "67e85f9c78ac759e41e2cfae"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Candy Man_1743282075858.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T21:01:16.285Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:05.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8603a78ac759e41e2cfc7"
+  },
+  "name": "7 Min BPM110 CC Music Factory Gonna Make U Sweat",
+  "description": "7 Min BPM110 CC Music Factory Gonna Make U Sweat",
+  "image": "uploads/images/7min BPM110 CC Music Factory Gonna Make You Sweat_1743282231228.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8603a78ac759e41e2cfc3"
+    },
+    {
+      "$oid": "67e8603a78ac759e41e2cfc4"
+    },
+    {
+      "$oid": "67e8603a78ac759e41e2cfc5"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 CC Music Factory_1743282233677.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T21:03:54.245Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8611378ac759e41e2cfd4"
+  },
+  "name": "7 Min BPM110 SNAP The Power",
+  "description": "7 Min BPM110 SNAP The Power",
+  "image": "uploads/images/7min BPM110 SNAP The Power_1743282445866.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8611378ac759e41e2cfd1"
+    },
+    {
+      "$oid": "67e8611378ac759e41e2cfd2"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Snap_1743282451454.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T21:07:31.945Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e861f378ac759e41e2cfe4"
+  },
+  "name": "7 Min BPM110 Tony LeMans Higher Than High",
+  "description": "7 Min BPM110 Tony LeMans Higher Than High",
+  "image": "uploads/images/7min BPM110 Tony LeMans Higher Than High_1743282672784.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e861f378ac759e41e2cfdf"
+    },
+    {
+      "$oid": "67e861f378ac759e41e2cfe0"
+    },
+    {
+      "$oid": "67e861f378ac759e41e2cfe1"
+    },
+    {
+      "$oid": "67e861f378ac759e41e2cfe2"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Tony LeMans_1743282674858.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T21:11:15.352Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e862f578ac759e41e2cff4"
+  },
+  "name": "7 Min BPM110 Was Not Was Walk The Dinosaur",
+  "description": "7 Min BPM110 Was Not Was Walk The Dinosaur",
+  "image": "uploads/images/7min BPM110 Was Not Was Walk the Dinosaur_1743282922873.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e862f578ac759e41e2cff1"
+    },
+    {
+      "$oid": "67e862f578ac759e41e2cff2"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Was Not Was_1743282933133.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-29T21:15:33.608Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8a0ea78ac759e41e2d01b"
+  },
+  "name": "7 Min BPM110 Seduction It Takes Two",
+  "description": "7 Min BPM110 Seduction It Takes Two",
+  "image": "uploads/images/7 Min BPM110 Seduction It Takes Two_1743298792016.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8a0ea78ac759e41e2d016"
+    },
+    {
+      "$oid": "67e8a0ea78ac759e41e2d017"
+    },
+    {
+      "$oid": "67e8a0ea78ac759e41e2d018"
+    },
+    {
+      "$oid": "67e8a0ea78ac759e41e2d019"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Seduction_1743298794186.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-30T01:39:54.699Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.798Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e8a3ad78ac759e41e2d031"
+  },
+  "name": "7 Min BPM110 Terrence DArby Sign Your Name",
+  "description": "7 Min BPM110 Terrence DArby Sign Your Name",
+  "image": "uploads/images/7 Min BPM110 Terrence DArby Sign Your Name_1743299493765.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 110,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e8a3ad78ac759e41e2d02d"
+    },
+    {
+      "$oid": "67e8a3ad78ac759e41e2d02e"
+    },
+    {
+      "$oid": "67e8a3ad78ac759e41e2d02f"
+    }
+  ],
+  "file": "uploads/audio/7min BPM110 Terrence Trent DArby Sign Your Name_1743299501175.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-30T01:51:41.622Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:06.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f3a778ac759e41e2d065"
+  },
+  "name": "7 Min BPM120 Aretha Franklin Freeway of Love",
+  "description": "7 Min BPM120 Aretha Franklin Freeway of Love",
+  "image": "uploads/images/7min BPM120 Aretha Franklin Freeway of Love_1743385508761.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f3a778ac759e41e2d062"
+    },
+    {
+      "$oid": "67e9f3a778ac759e41e2d063"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Aretha Franklin_1743385510963.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:45:11.438Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:07.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f42478ac759e41e2d073"
+  },
+  "name": "7 Min BPM120 Def Leopard Photograph",
+  "description": "7 Min BPM120 Def Leopard Photograph",
+  "image": "uploads/images/7min BPM120 Def Leopard Photograph_1743385633363.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f42478ac759e41e2d070"
+    },
+    {
+      "$oid": "67e9f42478ac759e41e2d071"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Def Leopard_1743385635873.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:47:16.305Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:07.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f4ba78ac759e41e2d081"
+  },
+  "name": "7 Min BPM120 Don Henley All She Wants To Do Is Dance",
+  "description": "7 Min BPM120 Don Henley All She Wants To Do Is Dance",
+  "image": "uploads/images/7min BPM120 Don Henley All She Wants To Do Is Dance_1743385783646.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f4ba78ac759e41e2d07e"
+    },
+    {
+      "$oid": "67e9f4ba78ac759e41e2d07f"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Don Henley All She Wants To Do is Dance_1743385785708.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:49:46.165Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:07.595Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f53878ac759e41e2d090"
+  },
+  "name": "7 Min BPM120 Duran Duran The Reflex",
+  "description": "7 Min BPM120 Duran Duran The Reflex",
+  "image": "uploads/images/7min BPM120 Duran Duran The Reflex_1743385909987.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f53878ac759e41e2d08c"
+    },
+    {
+      "$oid": "67e9f53878ac759e41e2d08d"
+    },
+    {
+      "$oid": "67e9f53878ac759e41e2d08e"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Duran Duran_1743385912241.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:51:52.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:07.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f5be78ac759e41e2d09e"
+  },
+  "name": "7 Min BPM120 Eurythmics Here Comes the Rain Again",
+  "description": "7 Min BPM120 Eurythmics Here Comes the Rain Again",
+  "image": "uploads/images/7min BPM120 Eurythmics Here Comes The Rain Again_1743386044211.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f5be78ac759e41e2d09b"
+    },
+    {
+      "$oid": "67e9f5be78ac759e41e2d09c"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Eurythmics_1743386046453.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:54:06.923Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:07.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f63378ac759e41e2d0ac"
+  },
+  "name": "7 Min BPM120 Pointer Sisters Jump",
+  "description": "7 Min BPM120 Pointer Sisters Jump",
+  "image": "uploads/images/7min BPM120 Pointer Sisters Jump_1743386160950.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f63378ac759e41e2d0a9"
+    },
+    {
+      "$oid": "67e9f63378ac759e41e2d0aa"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Pointer Sisters_1743386163088.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:56:03.548Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:08.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f6ad78ac759e41e2d0bc"
+  },
+  "name": "7 Min BPM120 Shannon Let The Music Play",
+  "description": "7 Min BPM120 Shannon Let The Music Play",
+  "image": "uploads/images/7min BPM120 Shannon Let The Music Play_1743386283036.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f6ad78ac759e41e2d0b7"
+    },
+    {
+      "$oid": "67e9f6ad78ac759e41e2d0b8"
+    },
+    {
+      "$oid": "67e9f6ad78ac759e41e2d0b9"
+    },
+    {
+      "$oid": "67e9f6ad78ac759e41e2d0ba"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Shannon_1743386285062.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T01:58:05.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:08.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e9f72e78ac759e41e2d0ca"
+  },
+  "name": "7 Min BPM120 Wang Chung Everybody Have Fun Tonight",
+  "description": "7 Min BPM120 Wang Chung Everybody Have Fun Tonight",
+  "image": "uploads/images/7min BPM120 Wang Chung Everybody Have Fun Tonight_1743386412011.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67e9f72e78ac759e41e2d0c7"
+    },
+    {
+      "$oid": "67e9f72e78ac759e41e2d0c8"
+    }
+  ],
+  "file": "uploads/audio/7min BPM120 Wang Chung_1743386414149.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:00:14.569Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:08.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea004878ac759e41e2d0e1"
+  },
+  "name": "7 Min BPM130 James Brown Livin In America",
+  "description": "7 Min BPM130 James Brown Livin In America",
+  "image": "uploads/images/7min BPM130 James Brown_1743388741621.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea004878ac759e41e2d0dd"
+    },
+    {
+      "$oid": "67ea004878ac759e41e2d0de"
+    },
+    {
+      "$oid": "67ea004878ac759e41e2d0df"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 James Brown_1743388743784.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:39:04.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:08.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea00ca78ac759e41e2d0ef"
+  },
+  "name": "7 Min BPM130 Midnight Star Freak-A-Zoid",
+  "description": "7 Min BPM130 Midnight Star Freak-A-Zoid",
+  "image": "uploads/images/7min BPM130 Midnight Star_1743388871639.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea00c978ac759e41e2d0ec"
+    },
+    {
+      "$oid": "67ea00c978ac759e41e2d0ed"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Midnight Star_1743388873639.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:41:14.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:08.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea015878ac759e41e2d0fc"
+  },
+  "name": "7 Min BPM130 NKOTB Step By Step",
+  "description": "7 Min BPM130 NKOTB Step By Step",
+  "image": "uploads/images/7min BPM130 New Kids On The Block_1743389014321.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea015878ac759e41e2d0f9"
+    },
+    {
+      "$oid": "67ea015878ac759e41e2d0fa"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 NKOTB_1743389016477.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:43:36.905Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:09.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea01e378ac759e41e2d10b"
+  },
+  "name": "7 Min BPM130 Pretty Poison Catch Me I'm Falling",
+  "description": "7 Min BPM130 Pretty Poison Catch Me I'm Falling",
+  "image": "uploads/images/7min BPM130 Pretty Poison_1743389152795.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea01e378ac759e41e2d107"
+    },
+    {
+      "$oid": "67ea01e378ac759e41e2d108"
+    },
+    {
+      "$oid": "67ea01e378ac759e41e2d109"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Pretty Poison_1743389154972.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:45:55.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:09.390Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea028278ac759e41e2d11a"
+  },
+  "name": "7 Min BPM130 Rick James Give It To Me",
+  "description": "7 Min BPM130 Rick James Give It To Me",
+  "image": "uploads/images/7min BPM130 Rick James_1743389311429.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea028178ac759e41e2d116"
+    },
+    {
+      "$oid": "67ea028178ac759e41e2d117"
+    },
+    {
+      "$oid": "67ea028178ac759e41e2d118"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Rick James_1743389313603.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:48:34.050Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:09.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea031d78ac759e41e2d12a"
+  },
+  "name": "7 Min BPM130 Smash Mouth Dancing On The Sun",
+  "description": "7 Min BPM130 Smash Mouth Dancing On The Sun",
+  "image": "uploads/images/7min BPM130 Smash Mouth_1743389466438.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea031c78ac759e41e2d125"
+    },
+    {
+      "$oid": "67ea031c78ac759e41e2d126"
+    },
+    {
+      "$oid": "67ea031c78ac759e41e2d127"
+    },
+    {
+      "$oid": "67ea031c78ac759e41e2d128"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Smash Mouth_1743389468512.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:51:09.020Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:09.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea038078ac759e41e2d136"
+  },
+  "name": "7 Min BPM130 Techno Medley v1 (Various Artists)",
+  "description": "7 Min BPM130 Techno Medley v1 (Various Artists)",
+  "image": "uploads/images/7min BPM130 Techno Medley Ver 1_1743389566215.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea038078ac759e41e2d134"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Techno Medley Ver 1_1743389568319.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:52:48.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:09.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea03f478ac759e41e2d144"
+  },
+  "name": "7 Min BPM130 Technotronic Pump Up The Jam",
+  "description": "7 Min BPM130 Technotronic Pump Up The Jam",
+  "image": "uploads/images/7min BPM130 Technotronic_1743389681179.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 130,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea03f378ac759e41e2d141"
+    },
+    {
+      "$oid": "67ea03f378ac759e41e2d142"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM130 Technotronic_1743389683333.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T02:54:44.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:10.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea7fb878ac759e41e2d165"
+  },
+  "name": "7 Min BPM140 Beatles - Ballard of John & Yoko",
+  "description": "7 Min BPM140 Beatles - Ballard of John & Yoko",
+  "image": "uploads/images/7min BPM140 Beatles_1743421364855.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea7fb778ac759e41e2d161"
+    },
+    {
+      "$oid": "67ea7fb778ac759e41e2d162"
+    },
+    {
+      "$oid": "67ea7fb778ac759e41e2d163"
+    }
+  ],
+  "file": "uploads/audio/Arbx WarmUp 7min BPM140 Beatles_1743421367567.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T11:42:48.038Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:10.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea80bf78ac759e41e2d171"
+  },
+  "name": "7 Min BPM140 Billy Idol Mony Mony",
+  "description": "7 Min BPM140 Billy Idol Mony Mony",
+  "image": "uploads/images/7min BPM140 Billy Idol_1743421628031.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea80bf78ac759e41e2d16d"
+    },
+    {
+      "$oid": "67ea80bf78ac759e41e2d16e"
+    },
+    {
+      "$oid": "67ea80bf78ac759e41e2d16f"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 Billy Idol_1743421630721.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T11:47:11.185Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:10.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea812e78ac759e41e2d17c"
+  },
+  "name": "7 Min BPM140 Boys Don't Cry I Wanna Be A Cowboy",
+  "description": "7 Min BPM140 Boys Don't Cry I Wanna Be A Cowboy",
+  "image": "uploads/images/7min BPM140 Boys Dont Cry_1743421738122.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea812e78ac759e41e2d179"
+    },
+    {
+      "$oid": "67ea812e78ac759e41e2d17a"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 Boys Dont Cry_1743421742010.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T11:49:02.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:10.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea81ce78ac759e41e2d189"
+  },
+  "name": "7 Min BPM140 Escape Club Wild Wild West",
+  "description": "7 Min BPM140 Escape Club Wild Wild West",
+  "image": "uploads/images/7min BPM140 Escape Club_1743421899224.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea81ce78ac759e41e2d184"
+    },
+    {
+      "$oid": "67ea81ce78ac759e41e2d185"
+    },
+    {
+      "$oid": "67ea81ce78ac759e41e2d186"
+    },
+    {
+      "$oid": "67ea81ce78ac759e41e2d187"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 Escape Club_1743421902088.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T11:51:42.601Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:10.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea833e78ac759e41e2d197"
+  },
+  "name": "7 Min BPM140 Madonna Dress U Up",
+  "description": "7 Min BPM140 Madonna Dress U Up",
+  "image": "uploads/images/7min BPM140 Madonna Dress U Up_1743422267316.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea833e78ac759e41e2d191"
+    },
+    {
+      "$oid": "67ea833e78ac759e41e2d192"
+    },
+    {
+      "$oid": "67ea833e78ac759e41e2d193"
+    },
+    {
+      "$oid": "67ea833e78ac759e41e2d194"
+    },
+    {
+      "$oid": "67ea833e78ac759e41e2d195"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 Madonna Dress U Up_1743422270047.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T11:57:50.582Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:11.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea842078ac759e41e2d1a4"
+  },
+  "name": "7 Min BPM140 Starship We Built This City",
+  "description": "7 Min BPM140 Starship We Built This City",
+  "image": "uploads/images/7min BPM140 Starship_1743422493440.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea842078ac759e41e2d19f"
+    },
+    {
+      "$oid": "67ea842078ac759e41e2d1a0"
+    },
+    {
+      "$oid": "67ea842078ac759e41e2d1a1"
+    },
+    {
+      "$oid": "67ea842078ac759e41e2d1a2"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 Starship_1743422496208.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T12:01:36.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:11.377Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea84b678ac759e41e2d1af"
+  },
+  "name": "7 Min BPM140 The Cure Friday I'm In Love",
+  "description": "7 Min BPM140 The Cure Friday I'm In Love",
+  "image": "uploads/images/7min BPM140 The Cure_1743422642874.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea84b578ac759e41e2d1ac"
+    },
+    {
+      "$oid": "67ea84b578ac759e41e2d1ad"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 The Cure_1743422645636.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T12:04:06.094Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:11.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea85b778ac759e41e2d1bb"
+  },
+  "name": "7 Min BPM140 The Hollies Long Cool Woman In A Black Dress",
+  "description": "7 Min BPM140 The Hollies Long Cool Woman In A Black Dress",
+  "image": "uploads/images/7min BPM140 The Hollies_1743422900486.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 140,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67ea85b778ac759e41e2d1b7"
+    },
+    {
+      "$oid": "67ea85b778ac759e41e2d1b8"
+    },
+    {
+      "$oid": "67ea85b778ac759e41e2d1b9"
+    }
+  ],
+  "file": "uploads/audio/7min BPM140 The Hollies_1743422903295.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-03-31T12:08:23.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:11.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48c2a78ac759e41e2d21f"
+  },
+  "name": "16 Min BPM 100 Club Neveau Lean On Me",
+  "description": "16 Min BPM 100 Club Neveau Lean On Me",
+  "image": "uploads/images/16 Min BPM100 Club Neveau Lean On Me_2_1744079903636.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48c2a78ac759e41e2d21a"
+    },
+    {
+      "$oid": "67f48c2a78ac759e41e2d21b"
+    },
+    {
+      "$oid": "67f48c2a78ac759e41e2d21c"
+    },
+    {
+      "$oid": "67f48c2a78ac759e41e2d21d"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Club Nuveau Lean On Me_1744079913974.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:38:34.622Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:11.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48cf478ac759e41e2d22e"
+  },
+  "name": "16 Min BPM 100 Color Me Badd I Wanna Sex U Up",
+  "description": "16 Min BPM 100 Color Me Badd I Wanna Sex U Up",
+  "image": "uploads/images/16 Min BPM100 Color Me Badd I Wanna Sex U Up_2_1744080107325.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48cf478ac759e41e2d227"
+    },
+    {
+      "$oid": "67f48cf478ac759e41e2d228"
+    },
+    {
+      "$oid": "67f48cf478ac759e41e2d229"
+    },
+    {
+      "$oid": "67f48cf478ac759e41e2d22a"
+    },
+    {
+      "$oid": "67f48cf478ac759e41e2d22b"
+    },
+    {
+      "$oid": "67f48cf478ac759e41e2d22c"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Color Me Badd Wanna Sex U Up_1744080116148.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:41:56.877Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:12.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48d8b78ac759e41e2d23b"
+  },
+  "name": "16 Min BPM 100 Grand Master Flash Magic Carpet Ride",
+  "description": "16 Min BPM 100 Grand Master Flash Magic Carpet Ride",
+  "image": "uploads/images/16 Min BPM100 Grand Master Flash Magic Carpet Ride_2_1744080249692.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48d8b78ac759e41e2d236"
+    },
+    {
+      "$oid": "67f48d8b78ac759e41e2d237"
+    },
+    {
+      "$oid": "67f48d8b78ac759e41e2d238"
+    },
+    {
+      "$oid": "67f48d8b78ac759e41e2d239"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Grand Master Flash Magic Carpet Ride_1744080267094.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:44:27.763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:12.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48e2c78ac759e41e2d24a"
+  },
+  "name": "16 Min BPM 100 Los Del Rio Macarena",
+  "description": "16 Min BPM 100 Los Del Rio Macarena",
+  "image": "uploads/images/16 Min BPM100 Los Del Rio Macarena_2_1744080417623.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48e2c78ac759e41e2d243"
+    },
+    {
+      "$oid": "67f48e2c78ac759e41e2d244"
+    },
+    {
+      "$oid": "67f48e2c78ac759e41e2d245"
+    },
+    {
+      "$oid": "67f48e2c78ac759e41e2d246"
+    },
+    {
+      "$oid": "67f48e2c78ac759e41e2d247"
+    },
+    {
+      "$oid": "67f48e2c78ac759e41e2d248"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Los Del Rio Macarena_1744080427424.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:47:08.127Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:12.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48ed878ac759e41e2d258"
+  },
+  "name": "16 Min BPM 100 Milli Vanilli Girl U Know Its True",
+  "description": "16 Min BPM 100 Milli Vanilli Girl U Know Its True",
+  "image": "uploads/images/16 Min BPM100 Milli Vanilli Girl U Know Its True_2_1744080590530.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48ed878ac759e41e2d252"
+    },
+    {
+      "$oid": "67f48ed878ac759e41e2d253"
+    },
+    {
+      "$oid": "67f48ed878ac759e41e2d254"
+    },
+    {
+      "$oid": "67f48ed878ac759e41e2d255"
+    },
+    {
+      "$oid": "67f48ed878ac759e41e2d256"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Milli Vanilli Girl U Know Its True_1744080599693.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:50:00.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:12.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f48f8a78ac759e41e2d267"
+  },
+  "name": "16 Min BPM 100 Suzanne Vega Toms Diner",
+  "description": "16 Min BPM 100 Suzanne Vega Toms Diner",
+  "image": "uploads/images/16 Min BPM100 Suzanne Vega Toms Diner_2_1744080767784.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f48f8a78ac759e41e2d260"
+    },
+    {
+      "$oid": "67f48f8a78ac759e41e2d261"
+    },
+    {
+      "$oid": "67f48f8a78ac759e41e2d262"
+    },
+    {
+      "$oid": "67f48f8a78ac759e41e2d263"
+    },
+    {
+      "$oid": "67f48f8a78ac759e41e2d264"
+    },
+    {
+      "$oid": "67f48f8a78ac759e41e2d265"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Suzane Vega Toms Diner_1744080777644.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:52:58.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:12.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f4901678ac759e41e2d275"
+  },
+  "name": "16 Min BPM 100 Tina Turner Typical Male",
+  "description": "16 Min BPM 100 Tina Turner Typical Male",
+  "image": "uploads/images/16 Min BPM100 Tina Turner Typical Male_2_1744080904933.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f4901678ac759e41e2d26f"
+    },
+    {
+      "$oid": "67f4901678ac759e41e2d270"
+    },
+    {
+      "$oid": "67f4901678ac759e41e2d271"
+    },
+    {
+      "$oid": "67f4901678ac759e41e2d272"
+    },
+    {
+      "$oid": "67f4901678ac759e41e2d273"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 TIna Turner Typical Male_1744080918184.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:55:18.868Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:13.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f490d278ac759e41e2d284"
+  },
+  "name": "16 Min BPM 100 Tracy Chapman Give Me One Reason",
+  "description": "16 Min BPM 100 Tracy Chapman Give Me One Reason",
+  "image": "uploads/images/16 Min BPM100 Tracy Chapman Give Me One Reason_2_1744081095666.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 100,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "67f490d278ac759e41e2d27d"
+    },
+    {
+      "$oid": "67f490d278ac759e41e2d27e"
+    },
+    {
+      "$oid": "67f490d278ac759e41e2d27f"
+    },
+    {
+      "$oid": "67f490d278ac759e41e2d280"
+    },
+    {
+      "$oid": "67f490d278ac759e41e2d281"
+    },
+    {
+      "$oid": "67f490d278ac759e41e2d282"
+    }
+  ],
+  "file": "uploads/audio/16min BPM100 Tracy Chapman Give Me One Reason_1744081106292.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-08T02:58:26.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:13.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d4c278ac759e41e2d357"
+  },
+  "name": "8 Min BPM120 Adam Ant Room At The Top",
+  "description": "8 Min BPM120 Adam Ant Room At The Top",
+  "image": "uploads/images/8 Min BPM 120 Adam Ant Room At The Top_1744229560810.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d4c278ac759e41e2d353"
+    },
+    {
+      "$oid": "67f6d4c278ac759e41e2d354"
+    },
+    {
+      "$oid": "67f6d4c278ac759e41e2d355"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Adam Ant Room At The Top_1744229569770.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:12:50.300Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:13.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d53478ac759e41e2d366"
+  },
+  "name": "8 Min BPM120 Aerosmith Back In The Saddle",
+  "description": "8 Min BPM120 Aerosmith Back In The Saddle",
+  "image": "uploads/images/8 Min BPM 120 Aerosmith Back in the Saddle_1744229675289.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d53478ac759e41e2d363"
+    },
+    {
+      "$oid": "67f6d53478ac759e41e2d364"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Aerosmith Back In The Saddle_1744229684384.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:14:44.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:13.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d59178ac759e41e2d375"
+  },
+  "name": "8 Min BPM120 After The Fire Der Kommissar",
+  "description": "8 Min BPM120 After The Fire Der Kommissar",
+  "image": "uploads/images/8 Min BPM 120 After the Fire Der Kommissar_1744229767676.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d59178ac759e41e2d371"
+    },
+    {
+      "$oid": "67f6d59178ac759e41e2d372"
+    },
+    {
+      "$oid": "67f6d59178ac759e41e2d373"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 After The Fire Der Kommissar_1744229777478.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:16:17.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:13.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d5f878ac759e41e2d383"
+  },
+  "name": "8 Min BPM120 Bee Gees More Than A Woman",
+  "description": "8 Min BPM120 Bee Gees More Than A Woman",
+  "image": "uploads/images/8 Min BPM 120 Bee Gees More Than A Woman_1744229871375.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d5f878ac759e41e2d380"
+    },
+    {
+      "$oid": "67f6d5f878ac759e41e2d381"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Bee Gees More Than A Woman_1744229879639.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:18:00.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:14.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d68078ac759e41e2d394"
+  },
+  "name": "8 Min BPM120 Billy Ocean Get Outta My Dreams Into My Car",
+  "description": "8 Min BPM120 Billy Ocean Get Outta My Dreams Into My Car",
+  "image": "uploads/images/8 Min BPM 120 Billy Ocean Get Outta My Dreams_1744230001845.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d67f78ac759e41e2d38f"
+    },
+    {
+      "$oid": "67f6d67f78ac759e41e2d390"
+    },
+    {
+      "$oid": "67f6d67f78ac759e41e2d391"
+    },
+    {
+      "$oid": "67f6d67f78ac759e41e2d392"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Billy Ocean Get Outta My Dreams_1744230015510.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:20:16.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:14.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d70d78ac759e41e2d3a4"
+  },
+  "name": "8 Min BPM120 Bob Seager Old Time Rock N Roll",
+  "description": "8 Min BPM120 Bob Seager Old Time Rock N Roll",
+  "image": "uploads/images/8 Min BPM 120 Bob Seager Old Time Rock N Roll_1744230148173.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d70d78ac759e41e2d39f"
+    },
+    {
+      "$oid": "67f6d70d78ac759e41e2d3a0"
+    },
+    {
+      "$oid": "67f6d70d78ac759e41e2d3a1"
+    },
+    {
+      "$oid": "67f6d70d78ac759e41e2d3a2"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Bob Seager Old Time RNR_1744230157329.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:22:37.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:14.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d76678ac759e41e2d3b3"
+  },
+  "name": "8 Min BPM120 Bobby Brown On Our Own",
+  "description": "8 Min BPM120 Bobby Brown On Our Own",
+  "image": "uploads/images/8 Min BPM 120 Bobby Brown On Our Own_1744230232593.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d76678ac759e41e2d3af"
+    },
+    {
+      "$oid": "67f6d76678ac759e41e2d3b0"
+    },
+    {
+      "$oid": "67f6d76678ac759e41e2d3b1"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Bobby Brown On Our Own_1744230246037.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:24:06.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:14.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d7d578ac759e41e2d3c2"
+  },
+  "name": "8 Min BPM120 Chic La Chic",
+  "description": "8 Min BPM120 Chic La Chic",
+  "image": "uploads/images/8 Min BPM 120 Chic La Chic_1744230348523.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d7d578ac759e41e2d3be"
+    },
+    {
+      "$oid": "67f6d7d578ac759e41e2d3bf"
+    },
+    {
+      "$oid": "67f6d7d578ac759e41e2d3c0"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Chic La Chic_1744230357355.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:25:57.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:14.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d83c78ac759e41e2d3d1"
+  },
+  "name": "8 Min BPM120 Club House Do It Again",
+  "description": "8 Min BPM120 Club House Do It Again",
+  "image": "uploads/images/8 Min BPM 120 Club House Do It Again_1744230450868.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d83c78ac759e41e2d3cd"
+    },
+    {
+      "$oid": "67f6d83c78ac759e41e2d3ce"
+    },
+    {
+      "$oid": "67f6d83c78ac759e41e2d3cf"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Club House Do It Again_1744230460156.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:27:40.672Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:15.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d89178ac759e41e2d3df"
+  },
+  "name": "8 Min BPM120 Def Leopard Photograph",
+  "description": "8 Min BPM120 Def Leopard Photograph",
+  "image": "uploads/images/8 Min BPM 120 Def Leopard Photograph_1744230536319.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d89178ac759e41e2d3dc"
+    },
+    {
+      "$oid": "67f6d89178ac759e41e2d3dd"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Def Leopard Photograph_1744230545313.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:29:05.865Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:15.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d8f278ac759e41e2d3ed"
+  },
+  "name": "8 Min BPM120 Divinyls I Touch Myself",
+  "description": "8 Min BPM120 Divinyls I Touch Myself",
+  "image": "uploads/images/8 Min BPM 120 Divynyls I Touch Myself_1744230633080.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d8f278ac759e41e2d3ea"
+    },
+    {
+      "$oid": "67f6d8f278ac759e41e2d3eb"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Divinyls I Touch Myself_1744230641875.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:30:42.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:15.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d94778ac759e41e2d3fc"
+  },
+  "name": "8 Min BPM120 Don Henley All She Wants To Do Is Dance",
+  "description": "8 Min BPM120 Don Henley All She Wants To Do Is Dance",
+  "image": "uploads/images/8 Min BPM 120 Don Henley All She Wants To Do Is Dance_1744230718193.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d94778ac759e41e2d3f8"
+    },
+    {
+      "$oid": "67f6d94778ac759e41e2d3f9"
+    },
+    {
+      "$oid": "67f6d94778ac759e41e2d3fa"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Don Henley All She Wants To Do Is Dance_1744230727391.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:32:07.862Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:15.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d9a478ac759e41e2d40b"
+  },
+  "name": "8 Min BPM120 Donna Summer This Time I Know Its For Real",
+  "description": "8 Min BPM120 Donna Summer This Time I Know Its For Real",
+  "image": "uploads/images/8 Min BPM 120 Donna Summer This Time I Know Its For Real_1744230810935.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d9a478ac759e41e2d407"
+    },
+    {
+      "$oid": "67f6d9a478ac759e41e2d408"
+    },
+    {
+      "$oid": "67f6d9a478ac759e41e2d409"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Donna Summer This Time I Know_1744230819678.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:33:40.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:15.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6d9f578ac759e41e2d41a"
+  },
+  "name": "8 Min BPM120 Duran Duran The Reflex",
+  "description": "8 Min BPM120 Duran Duran The Reflex",
+  "image": "uploads/images/8 Min BPM 120 Duran Duran The Reflex_1744230892839.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6d9f578ac759e41e2d416"
+    },
+    {
+      "$oid": "67f6d9f578ac759e41e2d417"
+    },
+    {
+      "$oid": "67f6d9f578ac759e41e2d418"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Duran Duran The Reflex_1744230901497.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:35:01.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:16.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6da4978ac759e41e2d428"
+  },
+  "name": "8 Min BPM120 Eurythmics Here Comes The Rain Again",
+  "description": "8 Min BPM120 Eurythmics Here Comes The Rain Again",
+  "image": "uploads/images/8 Min BPM 120 Eurythmics Here Comes The Rain Again_1744230971544.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6da4978ac759e41e2d425"
+    },
+    {
+      "$oid": "67f6da4978ac759e41e2d426"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Eurythmics Here Come The Rain Again_1744230984730.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:36:25.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:16.368Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6daa578ac759e41e2d437"
+  },
+  "name": "8 Min BPM120 Fleetwood Mac Dreams",
+  "description": "8 Min BPM120 Fleetwood Mac Dreams",
+  "image": "uploads/images/8 Min BPM 120 Fleetwood Mac Dreams_1744231068009.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6daa578ac759e41e2d433"
+    },
+    {
+      "$oid": "67f6daa578ac759e41e2d434"
+    },
+    {
+      "$oid": "67f6daa578ac759e41e2d435"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Fleetwood Mac Dreams_1744231076998.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:37:57.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:16.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6db0578ac759e41e2d445"
+  },
+  "name": "8 Min BPM120 Foreigner Hot Blooded",
+  "description": "8 Min BPM120 Foreigner Hot Blooded",
+  "image": "uploads/images/8 Min BPM 120 Foreigner Hot Blooded_1744231163778.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6db0478ac759e41e2d441"
+    },
+    {
+      "$oid": "67f6db0478ac759e41e2d442"
+    },
+    {
+      "$oid": "67f6db0478ac759e41e2d443"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Foreigner Hot Blooded_1744231172613.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:39:33.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:16.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6db9578ac759e41e2d454"
+  },
+  "name": "8 Min BPM120 Michael Jackson Mich Jagger State Of Shock",
+  "description": "8 Min BPM120 Michael Jackson Mich Jagger State Of Shock",
+  "image": "uploads/images/8 Min BPM 120 Jackson Jagger State of Shock_1744231307543.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6db9578ac759e41e2d450"
+    },
+    {
+      "$oid": "67f6db9578ac759e41e2d451"
+    },
+    {
+      "$oid": "67f6db9578ac759e41e2d452"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Mick Jagger-MJ State of Shock_1744231316975.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:41:57.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:16.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dc3878ac759e41e2d463"
+  },
+  "name": "8 Min BPM120 The Jacksons Shake Your Body Down to The Ground",
+  "description": "8 Min BPM120 The Jacksons Shake Your Body Down to The Ground",
+  "image": "uploads/images/8 Min BPM 120 The Jacksons Shake Your Body Down_1744231471646.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dc3878ac759e41e2d45f"
+    },
+    {
+      "$oid": "67f6dc3878ac759e41e2d460"
+    },
+    {
+      "$oid": "67f6dc3878ac759e41e2d461"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Jackson Five Shake Your Body Down_1744231480333.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:44:40.821Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:17.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dcda78ac759e41e2d475"
+  },
+  "name": "8 Min BPM120 James Brown Living In America",
+  "description": "8 Min BPM120 James Brown Living In America",
+  "image": "uploads/images/8 Min BPM 120 James Brown Living In America_1744231633381.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dcda78ac759e41e2d471"
+    },
+    {
+      "$oid": "67f6dcda78ac759e41e2d472"
+    },
+    {
+      "$oid": "67f6dcda78ac759e41e2d473"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 James Brown Living In America_1744231642250.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:47:22.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:17.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dd3078ac759e41e2d484"
+  },
+  "name": "8 Min BPM120 Jamie J Morgan Walk On The Wild Side",
+  "description": "8 Min BPM120 Jamie J Morgan Walk On The Wild Side",
+  "image": "uploads/images/8 Min BPM 120 Jamie J Morgan Walk On The Wild Side_1744231719959.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dd3078ac759e41e2d480"
+    },
+    {
+      "$oid": "67f6dd3078ac759e41e2d481"
+    },
+    {
+      "$oid": "67f6dd3078ac759e41e2d482"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Jamie Morgan Walk On The Wild Side_1744231728336.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:48:48.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:17.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dd9678ac759e41e2d493"
+  },
+  "name": "8 Min BPM120 Jeff Healey Stuck In The Middel With You",
+  "description": "8 Min BPM120 Jeff Healey Stuck In The Middel With You",
+  "image": "uploads/images/8 Min BPM 120 Jeff Healey Stuck In The Middle With You_1744231821506.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dd9678ac759e41e2d48f"
+    },
+    {
+      "$oid": "67f6dd9678ac759e41e2d490"
+    },
+    {
+      "$oid": "67f6dd9678ac759e41e2d491"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Jeff Healey Stuck In The Middle_1744231830205.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:50:30.718Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:18.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dde578ac759e41e2d4a1"
+  },
+  "name": "8 Min BPM120 Kelly Clarkson Since Youve Been Gone",
+  "description": "8 Min BPM120 Kelly Clarkson Since Youve Been Gone",
+  "image": "uploads/images/8 Min BPM 120 Kelly Clarkson Since Youve Been Gone_1744231900714.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dde578ac759e41e2d49e"
+    },
+    {
+      "$oid": "67f6dde578ac759e41e2d49f"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Kelly Clarkson Since Youve Been Gone_1744231909424.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:51:49.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:18.375Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6de5578ac759e41e2d4b2"
+  },
+  "name": "8 Min BPM120 Kim Carnes Crazy In The Night",
+  "description": "8 Min BPM120 Kim Carnes Crazy In The Night",
+  "image": "uploads/images/8 Min BPM 120 Kim Carnes Crazy In The Night_1744232012099.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6de5578ac759e41e2d4ad"
+    },
+    {
+      "$oid": "67f6de5578ac759e41e2d4ae"
+    },
+    {
+      "$oid": "67f6de5578ac759e41e2d4af"
+    },
+    {
+      "$oid": "67f6de5578ac759e41e2d4b0"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Kim Karnes Crazy In The Night_1744232021164.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:53:41.637Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:18.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dea378ac759e41e2d4c0"
+  },
+  "name": "8 Min BPM120 Loose Ends Loves Got Me",
+  "description": "8 Min BPM120 Loose Ends Loves Got Me",
+  "image": "uploads/images/8 Min BPM 120 Loose Ends Loves Got Me_1744232091046.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dea378ac759e41e2d4bd"
+    },
+    {
+      "$oid": "67f6dea378ac759e41e2d4be"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Loose Ends Loves Got Me_1744232099119.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:54:59.591Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:18.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6defd78ac759e41e2d4cf"
+  },
+  "name": "8 Min BPM120 Madonna Vogue",
+  "description": "8 Min BPM120 Madonna Vogue",
+  "image": "uploads/images/8 Min BPM 120 Madonna Vogue_1744232175430.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6defd78ac759e41e2d4cb"
+    },
+    {
+      "$oid": "67f6defd78ac759e41e2d4cc"
+    },
+    {
+      "$oid": "67f6defd78ac759e41e2d4cd"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Madonna Vodue_1744232189373.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:56:29.838Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:18.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6df5578ac759e41e2d4de"
+  },
+  "name": "8 Min BPM120 MC Hammer 2 Legit",
+  "description": "8 Min BPM120 MC Hammer 2 Legit",
+  "image": "uploads/images/8 Min BPM 120 MC Hammer 2 Legit_1744232268630.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6df5578ac759e41e2d4da"
+    },
+    {
+      "$oid": "67f6df5578ac759e41e2d4db"
+    },
+    {
+      "$oid": "67f6df5578ac759e41e2d4dc"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 MC Hammer 2 Legit_1744232277498.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:57:57.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:19.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6dfb678ac759e41e2d4ed"
+  },
+  "name": "8 Min BPM120 Men At Work Who Can It Be Now",
+  "description": "8 Min BPM120 Men At Work Who Can It Be Now",
+  "image": "uploads/images/8 Min BPM 120 Men At Work Who Can It Be Now_1744232364885.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6dfb578ac759e41e2d4e9"
+    },
+    {
+      "$oid": "67f6dfb578ac759e41e2d4ea"
+    },
+    {
+      "$oid": "67f6dfb578ac759e41e2d4eb"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Men At Work Who Can It Be Now_1744232373543.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T20:59:34.013Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:19.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f6e01378ac759e41e2d4fc"
+  },
+  "name": "8 Min BPM120 Michael Jackson Billy Jean",
+  "description": "8 Min BPM120 Michael Jackson Billy Jean",
+  "image": "uploads/images/8 Min BPM 120 Michael Jackson Billy Jean_1744232457761.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f6e01378ac759e41e2d4f8"
+    },
+    {
+      "$oid": "67f6e01378ac759e41e2d4f9"
+    },
+    {
+      "$oid": "67f6e01378ac759e41e2d4fa"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Michael Jackson Billy Jean_1744232467126.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-09T21:01:07.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T09:04:19.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d3dc1075e34aeefe6cea"
+  },
+  "name": "8 Min BPM120 Michael Jackson Jam",
+  "description": "8 Min BPM120 Michael Jackson Jam",
+  "image": "uploads/images/8 Min BPM 120 Michael Jackson Jam_1744294867089.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d3dc1075e34aeefe6ce5"
+    },
+    {
+      "$oid": "67f7d3dc1075e34aeefe6ce6"
+    },
+    {
+      "$oid": "67f7d3dc1075e34aeefe6ce7"
+    },
+    {
+      "$oid": "67f7d3dc1075e34aeefe6ce8"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Michael Jackson Jam_1744294876294.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:21:16.905Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:21:16.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d46a1075e34aeefe6cf8"
+  },
+  "name": "8 Min BPM120 Michael Jackson Wanna Be Startin Something",
+  "description": "8 Min BPM120 Michael Jackson Wanna Be Startin Something",
+  "image": "uploads/images/8 Min BPM 120 Michael Jackson Wanna Be Startin Something_1744295003853.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d46a1075e34aeefe6cf4"
+    },
+    {
+      "$oid": "67f7d46a1075e34aeefe6cf5"
+    },
+    {
+      "$oid": "67f7d46a1075e34aeefe6cf6"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Michael Jackson Wanna Be Startin Smthng_1744295017700.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:23:38.255Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:23:38.255Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d5011075e34aeefe6d36"
+  },
+  "name": "8 Min BPM120 Midnight Star Freak A Zoid",
+  "description": "8 Min BPM120 Midnight Star Freak A Zoid",
+  "image": "uploads/images/8 Min BPM 120 Midnight Star Freak A Zoid_1744295155429.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d5001075e34aeefe6d33"
+    },
+    {
+      "$oid": "67f7d5001075e34aeefe6d34"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Midnight Star Freak A Zoid_1744295168566.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:26:09.086Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:26:09.086Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d5831075e34aeefe6d45"
+  },
+  "name": "8 Min BPM120 Natalie Cole Jump Start My Heart",
+  "description": "8 Min BPM120 Natalie Cole Jump Start My Heart",
+  "image": "uploads/images/8 Min BPM 120 Natalie Cole Jump Start My Heart_1744295283858.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d5831075e34aeefe6d41"
+    },
+    {
+      "$oid": "67f7d5831075e34aeefe6d42"
+    },
+    {
+      "$oid": "67f7d5831075e34aeefe6d43"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Natalie Cole Jump Start My Heart_1744295299087.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:28:19.581Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:28:19.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d5ea1075e34aeefe6d54"
+  },
+  "name": "8 Min BPM120 Rick James Give It To Me Baby",
+  "description": "8 Min BPM120 Rick James Give It To Me Baby",
+  "image": "uploads/images/8 Min BPM 120 Rick James Give It To Me Baby_1744295388515.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d5ea1075e34aeefe6d50"
+    },
+    {
+      "$oid": "67f7d5ea1075e34aeefe6d51"
+    },
+    {
+      "$oid": "67f7d5ea1075e34aeefe6d52"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Rick James Give It To Me Baby_1744295401811.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:30:02.496Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:30:02.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d6581075e34aeefe6d63"
+  },
+  "name": "8 Min BPM120 Right Said Fred Im Too Sexy",
+  "description": "8 Min BPM120 Right Said Fred Im Too Sexy",
+  "image": "uploads/images/8 Min BPM 120 Right Said Fred I'm Too Sexy_1744295502978.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d6581075e34aeefe6d5f"
+    },
+    {
+      "$oid": "67f7d6581075e34aeefe6d60"
+    },
+    {
+      "$oid": "67f7d6581075e34aeefe6d61"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Right Said Fred Im Too Sexy_1744295511936.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:31:52.471Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:31:52.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d6cf1075e34aeefe6d72"
+  },
+  "name": "8 Min BPM120 Rob Base & DJ E-Z Rock It Takes Two",
+  "description": "8 Min BPM120 Rob Base & DJ E-Z Rock It Takes Two",
+  "image": "uploads/images/8 Min BPM 120 Rob Base It Takes Two_1744295622103.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d6cf1075e34aeefe6d6e"
+    },
+    {
+      "$oid": "67f7d6cf1075e34aeefe6d6f"
+    },
+    {
+      "$oid": "67f7d6cf1075e34aeefe6d70"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Rob Base It Takes Two_1744295631264.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:33:51.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:33:51.792Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d76e1075e34aeefe6d81"
+  },
+  "name": "8 Min BPM120 Rod Stewart - Do You Think I'm Sexy",
+  "description": "8 Min BPM120 Rod Stewart - Do You Think I'm Sexy",
+  "image": "uploads/images/8 Min BPM 120 Rod Steward Do You Think Im Sexy_1744295780779.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d76e1075e34aeefe6d7d"
+    },
+    {
+      "$oid": "67f7d76e1075e34aeefe6d7e"
+    },
+    {
+      "$oid": "67f7d76e1075e34aeefe6d7f"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Rod Stewart Do You Think Im Sexy_1744295789973.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:36:30.493Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:36:30.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d7c91075e34aeefe6d90"
+  },
+  "name": "8 Min BPM120 Salt N Pepa Push It",
+  "description": "8 Min BPM120 Salt N Pepa Push It",
+  "image": "uploads/images/8 Min BPM 120 Salt N Pepa Push It_1744295872092.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d7c91075e34aeefe6d8c"
+    },
+    {
+      "$oid": "67f7d7c91075e34aeefe6d8d"
+    },
+    {
+      "$oid": "67f7d7c91075e34aeefe6d8e"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Salt N Pepa Push It_1744295881037.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:38:01.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:38:01.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d82b1075e34aeefe6da0"
+  },
+  "name": "8 Min BPM120 Shannon Let The Music Play",
+  "description": "8 Min BPM120 Shannon Let The Music Play",
+  "image": "uploads/images/8 Min BPM 120 Shannon Let The Music Play_1744295969846.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d82a1075e34aeefe6d9b"
+    },
+    {
+      "$oid": "67f7d82a1075e34aeefe6d9c"
+    },
+    {
+      "$oid": "67f7d82a1075e34aeefe6d9d"
+    },
+    {
+      "$oid": "67f7d82a1075e34aeefe6d9e"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Shannon Let The Music Play_1744295978579.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:39:39.078Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:39:39.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d8991075e34aeefe6db0"
+  },
+  "name": "8 Min BPM120 Smash Mouth Walking On The Sun",
+  "description": "8 Min BPM120 Smash Mouth Walking On The Sun",
+  "image": "uploads/images/8 Min BPM 120 Smash Mouth Dancin On The Sun_1744296075419.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d8991075e34aeefe6dab"
+    },
+    {
+      "$oid": "67f7d8991075e34aeefe6dac"
+    },
+    {
+      "$oid": "67f7d8991075e34aeefe6dad"
+    },
+    {
+      "$oid": "67f7d8991075e34aeefe6dae"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Smash Mouth Dancin On The Sun_1744296088954.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:41:29.474Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:41:29.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d9291075e34aeefe6dc1"
+  },
+  "name": "8 Min BPM120 Starpoint Object Of MY Desire",
+  "description": "8 Min BPM120 Starpoint Object Of MY Desire",
+  "image": "uploads/images/8 Min BPM 120 Starpoint Object Of My Desire_1744296218178.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d9291075e34aeefe6dbc"
+    },
+    {
+      "$oid": "67f7d9291075e34aeefe6dbd"
+    },
+    {
+      "$oid": "67f7d9291075e34aeefe6dbe"
+    },
+    {
+      "$oid": "67f7d9291075e34aeefe6dbf"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Starpoint Object Of My Desire_1744296233457.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:43:53.967Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:43:53.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d9971075e34aeefe6dd1"
+  },
+  "name": "8 Min BPM120 Us3 Cantaloop",
+  "description": "8 Min BPM120 Us3 Cantaloop",
+  "image": "uploads/images/8 Min BPM 120 Us3 Cantaloop_1744296334072.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d9971075e34aeefe6dcd"
+    },
+    {
+      "$oid": "67f7d9971075e34aeefe6dce"
+    },
+    {
+      "$oid": "67f7d9971075e34aeefe6dcf"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 US3 Cantaloop_1744296343023.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:45:43.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:45:43.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7d9e71075e34aeefe6ddf"
+  },
+  "name": "8 Min BPM120 Wang Chung Everybody Have Fun Tonight",
+  "description": "8 Min BPM120 Wang Chung Everybody Have Fun Tonight",
+  "image": "uploads/images/8 Min BPM 120 Wang Chung Everybody Have Fun Tonight_1744296413715.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7d9e71075e34aeefe6ddc"
+    },
+    {
+      "$oid": "67f7d9e71075e34aeefe6ddd"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Wang Chung Everybody Have Fun Tonight_1744296422822.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:47:03.365Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:47:03.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7da981075e34aeefe6dee"
+  },
+  "name": "8 Min BPM120 Yazz Dont Go",
+  "description": "8 Min BPM120 Yazz Dont Go",
+  "image": "uploads/images/8 Min BPM 120 Yazz Dont Go_1744296591032.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7da981075e34aeefe6dea"
+    },
+    {
+      "$oid": "67f7da981075e34aeefe6deb"
+    },
+    {
+      "$oid": "67f7da981075e34aeefe6dec"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Yazz Dont Go_1744296600128.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:50:00.712Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:50:00.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f7daf71075e34aeefe6dff"
+  },
+  "name": "8 Min BPM120 Yazz Situation",
+  "description": "8 Min BPM120 Yazz Situation",
+  "image": "uploads/images/8 Min BPM 120 Yaz Situation_1744296686339.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 120,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "67f7daf71075e34aeefe6dfb"
+    },
+    {
+      "$oid": "67f7daf71075e34aeefe6dfc"
+    },
+    {
+      "$oid": "67f7daf71075e34aeefe6dfd"
+    }
+  ],
+  "file": "uploads/audio/8min BPM120 Yazz Situation_1744296695340.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-04-10T14:51:35.862Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-10T14:51:35.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681e6d50b3cb0ceb6143064f"
+  },
+  "name": "test",
+  "description": "test",
+  "image": "uploads/images/jjtest_1746824527446.txt",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 142,
+  "length": 420,
+  "tracks": [
+    {
+      "$oid": "681e6d50b3cb0ceb6143064d"
+    }
+  ],
+  "file": "uploads/audio/image_1746824528003.jfif",
+  "new": false,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-05-09T21:02:08.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T19:51:07.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68817888fa7788ee696e73f6"
+  },
+  "name": "16 Min BPM124 Mama Juanita - 2 Live Crew",
+  "description": "16 Min BPM124 Mama Juanita - 2 Live Crew",
+  "image": "uploads/images/16 Min BPM124 Mama Juanita_1753315367728.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68817888fa7788ee696e73f0"
+    },
+    {
+      "$oid": "68817888fa7788ee696e73f1"
+    },
+    {
+      "$oid": "68817888fa7788ee696e73f2"
+    },
+    {
+      "$oid": "68817888fa7788ee696e73f3"
+    },
+    {
+      "$oid": "68817888fa7788ee696e73f4"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 2 Live Crew_1753315464098.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:04:24.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:04:24.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68817a79fa7788ee696e7427"
+  },
+  "name": "16 Min BPM 124 Have A Drink On Me - AC DC",
+  "description": "16 Min BPM 124 Have A Drink On Me - AC DC",
+  "image": "uploads/images/16 Min BPM124 Have A Drink On Me_1753315917523.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68817a79fa7788ee696e7421"
+    },
+    {
+      "$oid": "68817a79fa7788ee696e7422"
+    },
+    {
+      "$oid": "68817a79fa7788ee696e7423"
+    },
+    {
+      "$oid": "68817a79fa7788ee696e7424"
+    },
+    {
+      "$oid": "68817a79fa7788ee696e7425"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 ACDC_1753315960806.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:12:41.440Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:12:41.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68817d57fa7788ee696e7481"
+  },
+  "name": "16 Min BPM124 Everybody Everybody - Black Box",
+  "description": "16 Min BPM124 Everybody Everybody - Black Box",
+  "image": "uploads/images/16 Min BPM124 Everybody Everybody_1753316664080.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68817d57fa7788ee696e747c"
+    },
+    {
+      "$oid": "68817d57fa7788ee696e747d"
+    },
+    {
+      "$oid": "68817d57fa7788ee696e747e"
+    },
+    {
+      "$oid": "68817d57fa7788ee696e747f"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Black Box Everybody_1753316694739.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:24:55.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:24:55.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68817e91fa7788ee696e7491"
+  },
+  "name": "16 Min BPM1 24 Right On Track - Breakfast Club",
+  "description": "16 Min BPM124 Right On Track - Breakfast Club",
+  "image": "uploads/images/16 Min BPM124 Right On Track_1753316875586.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68817e90fa7788ee696e748c"
+    },
+    {
+      "$oid": "68817e90fa7788ee696e748d"
+    },
+    {
+      "$oid": "68817e90fa7788ee696e748e"
+    },
+    {
+      "$oid": "68817e90fa7788ee696e748f"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Breakfast Club_1753317008325.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:30:09.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:30:09.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68817f81fa7788ee696e749e"
+  },
+  "name": "16 Min BPM1 24-128 Classic Rock Ver. 4",
+  "description": "16 Min BPM1 24-128 Classic Rock Ver. 4",
+  "image": "uploads/images/16 Min BPM124-128 Classic Rock Ver 4_1753317129619.png",
+  "genre": {
+    "$oid": "6763c9273ec71f920243b845"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68817f81fa7788ee696e749c"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Classic Rock v4 Hot Blooded_1753317249014.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:34:09.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:34:09.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688180d3fa7788ee696e74af"
+  },
+  "name": "16 Min BPM1 24 That's What I Like - Cooly Live",
+  "description": "16 Min BPM1 24 That's What I Like - Cooly Live",
+  "image": "uploads/images/16 Min BPM124 Thats What I Like_1753317451257.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "688180d3fa7788ee696e74a9"
+    },
+    {
+      "$oid": "688180d3fa7788ee696e74aa"
+    },
+    {
+      "$oid": "688180d3fa7788ee696e74ab"
+    },
+    {
+      "$oid": "688180d3fa7788ee696e74ac"
+    },
+    {
+      "$oid": "688180d3fa7788ee696e74ad"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Cooley Live_1753317586814.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:39:47.394Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:39:47.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68818271fa7788ee696e74c2"
+  },
+  "name": "16 Min BPM1 24 Land Of Confusion - Genesis",
+  "description": "16 Min BPM1 24 Land Of Confusion - Genesis",
+  "image": "uploads/images/16 Min BPM124 Land of Confusion_1753317897004.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68818271fa7788ee696e74ba"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74bb"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74bc"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74bd"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74be"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74bf"
+    },
+    {
+      "$oid": "68818271fa7788ee696e74c0"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Genesis_1753318001380.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:46:41.943Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:46:41.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6881850cfa7788ee696e74d5"
+  },
+  "name": "16 Min BPM1 24 Get On Your Feet - Gloria Estefan",
+  "description": "16 Min BPM1 24 Get On Your Feet - Gloria Estefan",
+  "image": "uploads/images/16 Min BPM124 Have Get On Your Feet_1753318551574.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6881850cfa7788ee696e74ce"
+    },
+    {
+      "$oid": "6881850cfa7788ee696e74cf"
+    },
+    {
+      "$oid": "6881850cfa7788ee696e74d0"
+    },
+    {
+      "$oid": "6881850cfa7788ee696e74d1"
+    },
+    {
+      "$oid": "6881850cfa7788ee696e74d2"
+    },
+    {
+      "$oid": "6881850cfa7788ee696e74d3"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Gloria Estefan_1753318668142.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T00:57:48.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T00:57:48.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68818e3afa7788ee696e74fb"
+  },
+  "name": "16 Min BPM124 Just Got Paid - Johnny Kemp",
+  "description": "16 Min BPM124 Just Got Paid - Johnny Kemp",
+  "image": "uploads/images/16 Min BPM124 Just Got Paid_1753320898425.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68818e3afa7788ee696e74f3"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f4"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f5"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f6"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f7"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f8"
+    },
+    {
+      "$oid": "68818e3afa7788ee696e74f9"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Johnny Kemp_1753321018099.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T01:36:58.961Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:36:58.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68818f94fa7788ee696e750c"
+  },
+  "name": "16 Min BPM124 Where's The Party - Madonna",
+  "description": "16 Min BPM124 Where's The Party - Madonna",
+  "image": "uploads/images/16 Min BPM124 Wheres The Party_1753321214737.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "68818f94fa7788ee696e7506"
+    },
+    {
+      "$oid": "68818f94fa7788ee696e7507"
+    },
+    {
+      "$oid": "68818f94fa7788ee696e7508"
+    },
+    {
+      "$oid": "68818f94fa7788ee696e7509"
+    },
+    {
+      "$oid": "68818f94fa7788ee696e750a"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Madonna_1753321363795.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T01:42:44.418Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:42:44.418Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688190e5fa7788ee696e751e"
+  },
+  "name": "16 Min BPM124 It Takes Two - Seduction",
+  "description": "16 Min BPM124 It Takes Two - Seduction",
+  "image": "uploads/images/16 Min BPM124 Seduction_1753321556925.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "688190e5fa7788ee696e7517"
+    },
+    {
+      "$oid": "688190e5fa7788ee696e7518"
+    },
+    {
+      "$oid": "688190e5fa7788ee696e7519"
+    },
+    {
+      "$oid": "688190e5fa7788ee696e751a"
+    },
+    {
+      "$oid": "688190e5fa7788ee696e751b"
+    },
+    {
+      "$oid": "688190e5fa7788ee696e751c"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Seduction_1753321701241.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T01:48:21.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:48:21.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688191a0fa7788ee696e7530"
+  },
+  "name": "16 Min BPM124 Losing U - Uptown",
+  "description": "16 Min BPM124 Losing U - Uptown",
+  "image": "uploads/images/16 Min BPM124 Losing U_1753321864760.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 124,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "688191a0fa7788ee696e7529"
+    },
+    {
+      "$oid": "688191a0fa7788ee696e752a"
+    },
+    {
+      "$oid": "688191a0fa7788ee696e752b"
+    },
+    {
+      "$oid": "688191a0fa7788ee696e752c"
+    },
+    {
+      "$oid": "688191a0fa7788ee696e752d"
+    },
+    {
+      "$oid": "688191a0fa7788ee696e752e"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 124 Uptown_1753321888101.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-24T01:51:28.644Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T01:51:28.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882cb5ffa7788ee696e81da"
+  },
+  "name": "16 Min BPM132 2 Mama Juanita - 2 Live Crew",
+  "description": "16 Min BPM132 2 Mama Juanita - 2 Live Crew",
+  "image": "uploads/images/16 Min BPM132 Mama Juanita_1753402175961.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882cb5ffa7788ee696e81d4"
+    },
+    {
+      "$oid": "6882cb5ffa7788ee696e81d5"
+    },
+    {
+      "$oid": "6882cb5ffa7788ee696e81d6"
+    },
+    {
+      "$oid": "6882cb5ffa7788ee696e81d7"
+    },
+    {
+      "$oid": "6882cb5ffa7788ee696e81d8"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 2 Live Crew_1753402207306.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:10:07.892Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:10:07.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882cc84fa7788ee696e81ec"
+  },
+  "name": "16 Min BPM132 2 Have A Drink On Me - AC DC",
+  "description": "16 Min BPM132 2 Have A Drink On Me - AC DC",
+  "image": "uploads/images/16 Min BPM132 Have A Drink On Me_1753402455866.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882cc84fa7788ee696e81e6"
+    },
+    {
+      "$oid": "6882cc84fa7788ee696e81e7"
+    },
+    {
+      "$oid": "6882cc84fa7788ee696e81e8"
+    },
+    {
+      "$oid": "6882cc84fa7788ee696e81e9"
+    },
+    {
+      "$oid": "6882cc84fa7788ee696e81ea"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 ACDC_1753402499702.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:15:00.300Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:15:00.300Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882cd5bfa7788ee696e81fc"
+  },
+  "name": "16 Min BPM132 Everybody Everybody - Black Box",
+  "description": "16 Min BPM132 Everybody Everybody - Black Box",
+  "image": "uploads/images/16 Min BPM132 Everybody Everybody_1753402671849.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882cd5bfa7788ee696e81f7"
+    },
+    {
+      "$oid": "6882cd5bfa7788ee696e81f8"
+    },
+    {
+      "$oid": "6882cd5bfa7788ee696e81f9"
+    },
+    {
+      "$oid": "6882cd5bfa7788ee696e81fa"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 Black Box_1753402714558.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:18:35.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:18:35.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882cee3fa7788ee696e8211"
+  },
+  "name": "16 Min BPM132 2 Bad - Michael Jackson",
+  "description": "16 Min BPM132 2 Bad - Michael Jackson",
+  "image": "uploads/images/16 Min BPM132 Bad_1753403049834.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882cee3fa7788ee696e820c"
+    },
+    {
+      "$oid": "6882cee3fa7788ee696e820d"
+    },
+    {
+      "$oid": "6882cee3fa7788ee696e820e"
+    },
+    {
+      "$oid": "6882cee3fa7788ee696e820f"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 Breakfast Club_1753403106807.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:25:07.731Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:25:07.731Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882d046fa7788ee696e8224"
+  },
+  "name": "16 Min BPM132 2 Come Into My House - Queen Latifah",
+  "description": "16 Min BPM132 2 Come Into My House - Queen Latifah",
+  "image": "uploads/images/16 Min BPM132 Gonna Make U Sweat_1753403416968.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882d046fa7788ee696e821c"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e821d"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e821e"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e821f"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e8220"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e8221"
+    },
+    {
+      "$oid": "6882d046fa7788ee696e8222"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 CC Everybody Dance Now_1753403462399.mp3",
+  "new": false,
+  "suggested": false,
+  "trending": true,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:31:02.981Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:31:02.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882d13dfa7788ee696e8237"
+  },
+  "name": "16 Min BPM132 2 Stomp & Grind - Half Pint",
+  "description": "16 Min BPM132 2 Stomp & Grind - Half Pint",
+  "image": "uploads/images/16 Min BPM132 Stomp N Grind_1753403675192.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882d13dfa7788ee696e822f"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8230"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8231"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8232"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8233"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8234"
+    },
+    {
+      "$oid": "6882d13dfa7788ee696e8235"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 Cupid_1753403708936.mp3",
+  "new": true,
+  "suggested": false,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:35:09.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:35:09.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882d222fa7788ee696e8249"
+  },
+  "name": "16 Min BPM132 Just Got Paid - Johnny Kemp",
+  "description": "16 Min BPM132 Just Got Paid - Johnny Kemp",
+  "image": "uploads/images/16 Min BPM132 Just Got Paid_1753403904463.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882d222fa7788ee696e8241"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8242"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8243"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8244"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8245"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8246"
+    },
+    {
+      "$oid": "6882d222fa7788ee696e8247"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 Johnny Kemp_1753403938327.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:38:58.920Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:38:58.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882d3a6fa7788ee696e8266"
+  },
+  "name": "16 Min BPM132 Don't Rush Me - Taylor Dayne",
+  "description": "16 Min BPM132 Don't Rush Me - Taylor Dayne",
+  "image": "uploads/images/16 Min BPM132 Dont Rush Me 2_1753404310372.png",
+  "genre": {
+    "$oid": "6763c9213ec71f920243b841"
+  },
+  "bpm": 132,
+  "length": 960,
+  "tracks": [
+    {
+      "$oid": "6882d3a6fa7788ee696e825f"
+    },
+    {
+      "$oid": "6882d3a6fa7788ee696e8260"
+    },
+    {
+      "$oid": "6882d3a6fa7788ee696e8261"
+    },
+    {
+      "$oid": "6882d3a6fa7788ee696e8262"
+    },
+    {
+      "$oid": "6882d3a6fa7788ee696e8263"
+    },
+    {
+      "$oid": "6882d3a6fa7788ee696e8264"
+    }
+  ],
+  "file": "uploads/audio/Arobix 16 min BPM 132 taylor Dayne_1753404325837.mp3",
+  "new": false,
+  "suggested": true,
+  "trending": false,
+  "free": false,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-25T00:45:26.440Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T00:45:26.440Z"
+  },
+  "__v": 0
+}]

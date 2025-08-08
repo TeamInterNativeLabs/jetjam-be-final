@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6853ee07fa7788ee696e4915"
+  },
+  "method_subscription_id": "I-KU7WU98XMP1H",
+  "package": {
+    "$oid": "67f8c75f1113ac22b24ad566"
+  },
+  "user": {
+    "$oid": "680c0758b3cb0ceb61430493"
+  },
+  "expiry": {
+    "$date": "2025-07-19T10:00:00.000Z"
+  },
+  "active": true,
+  "createdAt": {
+    "$date": "2025-06-19T11:01:27.299Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-19T11:01:27.299Z"
+  },
+  "__v": 0
+}]

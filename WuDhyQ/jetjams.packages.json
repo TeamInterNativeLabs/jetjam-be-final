@@ -1,0 +1,224 @@
+[{
+  "_id": {
+    "$oid": "66fda2049f70d327f38662d9"
+  },
+  "method_product_id": "PROD-6GR74595JA296702L",
+  "method_plan_id": "P-7GA196341X569960RM362EBA",
+  "title": "All Genre",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2024-10-02T19:41:56.089Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T19:41:56.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8c75f1113ac22b24ad566"
+  },
+  "method_product_id": "PROD-56828302YF096330P",
+  "method_plan_id": "P-87U93716WP6985429M74MOXQ",
+  "title": "All Music",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T07:40:15.508Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T07:40:15.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8c92a04b308a7de2d6533"
+  },
+  "method_product_id": "PROD-6CD37762JS190371U",
+  "method_plan_id": "P-5HL183097R6777213M74MSKI",
+  "title": "All Music Final",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T07:47:54.090Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T07:47:54.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8ce7e82fe03f1504c022f"
+  },
+  "method_product_id": "PROD-4ND625042S642354K",
+  "method_plan_id": "P-7CU12700MS312924CM74M47I",
+  "title": "All Music Final 123",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T08:10:38.418Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T08:10:38.418Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8d2e07761a773809674bf"
+  },
+  "method_product_id": "PROD-5EX217192U088700T",
+  "method_plan_id": "P-5LM0458972033910MM74NFXY",
+  "title": "All Music Final 123456789",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T08:29:20.282Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T08:29:20.282Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8d353f5890f5d57701f5c"
+  },
+  "method_product_id": "PROD-05D22509XU0493646",
+  "method_plan_id": "P-69X45798TT317282YM74NGUI",
+  "title": "All Music Final 123456789",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T08:31:15.198Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T08:31:15.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8d35ef5890f5d57701f5e"
+  },
+  "method_product_id": "PROD-8WG66507GS113544P",
+  "method_plan_id": "P-5MD77467A11362446M74NGXQ",
+  "title": "Full and Final",
+  "genre": [
+    {
+      "$oid": "6763c9213ec71f920243b841"
+    },
+    {
+      "$oid": "6763c9273ec71f920243b845"
+    },
+    {
+      "$oid": "6763c92c3ec71f920243b849"
+    }
+  ],
+  "features": [
+    "Pop Betamixed sets from the 80's and 90's",
+    "Set lengths are :20, :40, and :60 minutes."
+  ],
+  "duration": "month",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2025-04-11T08:31:26.994Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T08:31:26.994Z"
+  },
+  "__v": 0
+}]
