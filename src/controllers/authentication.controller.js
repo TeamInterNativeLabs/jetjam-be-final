@@ -66,6 +66,8 @@ const login = async (req, res) => {
 
     currentUser.subscription = subscription;
 
+    console.log(currentUser);
+
     return res.status(200).send({
       success: true,
       message: "User successfully logged in",

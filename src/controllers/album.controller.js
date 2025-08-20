@@ -30,6 +30,8 @@ const createAlbum = async (req, res) => {
       tracks,
     };
 
+    console.log(payload);
+
     let album = new Album(payload);
     await album.save();
 
