@@ -21,7 +21,7 @@ const create_album_order = async (req, res, next) => {
     const { price } = req.body;
 
     const order = await fetch(
-      `https://api-m.sandbox.paypal.com/v2/checkout/orders`,
+      `${process.env.PAYPAL_API_URL}/v2/checkout/orders`,
       {
         method: "POST",
         headers: {
@@ -59,7 +59,7 @@ const capture_album_order = async (req, res, next) => {
     console.log(album);
 
     const capture = await fetch(
-      `https://api-m.sandbox.paypal.com/v2/checkout/orders/${order_id}/capture`,
+      `${process.env.PAYPAL_API_URL}/v2/checkout/orders/${order_id}/capture`,
       {
         method: "POST",
         headers: {

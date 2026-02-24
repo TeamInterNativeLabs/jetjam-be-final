@@ -8,14 +8,7 @@ const getUserCurrentSubscription = async email => {
 
     const accessToken = await paypalClient.getAccessToken();
 
-    // const subscription = await fetch(`https://api-m.sandbox.paypal.com/v1/billing/subscriptions?status=ACTIVE&email_address=${encodeURIComponent(email)}`, {
-    //     method: 'GET',
-    //     headers: {
-    //         'Authorization': `Bearer ${accessToken}`,
-    //         'Content-Type': 'application/json'
-    //     }
-    // });
-    const subscription = await fetch(`https://api-m.paypal.com/v1/billing/subscriptions?status=ACTIVE&email_address=${encodeURIComponent(email)}`, {
+    const subscription = await fetch(`${process.env.PAYPAL_API_URL}/v1/billing/subscriptions?status=ACTIVE&email_address=${encodeURIComponent(email)}`, {
         method: 'GET',
         headers: {
             'Authorization': `Bearer ${accessToken}`,
