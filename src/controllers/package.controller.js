@@ -25,7 +25,7 @@ const createPackage = async (req, res) => {
 
     const accessToken = await paypalClient.getAccessToken();
 
-    const product_url = "https://api-m.sandbox.paypal.com/v1/catalogs/products";
+    const product_url = `${process.env.PAYPAL_API_URL}/v1/catalogs/products`;
     const product_payload = {
       name: body?.title,
       type: "SERVICE",
@@ -42,7 +42,7 @@ const createPackage = async (req, res) => {
 
     const product_result = await product_response.json();
 
-    const plan_url = "https://api-m.sandbox.paypal.com/v1/billing/plans";
+    const plan_url = `${process.env.PAYPAL_API_URL}/v1/billing/plans`;
     const plan_payload = {
       product_id: product_result.id,
       name: body?.title,
@@ -181,7 +181,7 @@ const subscribe = async (req, res) => {
 
     const accessToken = await paypalClient.getAccessToken();
 
-    const url = "https://api-m.sandbox.paypal.com/v1/billing/subscriptions";
+    const url = `${process.env.PAYPAL_API_URL}/v1/billing/subscriptions`;
     const payload = {
       plan_id: package?.method_plan_id,
       subscriber: {

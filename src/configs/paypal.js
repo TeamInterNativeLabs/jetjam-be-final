@@ -8,7 +8,8 @@ function environment() {
     let clientId = process.env.PAYPAL_CLIENT_ID;
     let clientSecret = process.env.PAYPAL_CLIENT_SECRET;
 
-    return new checkoutNodeJssdk.core.SandboxEnvironment(clientId, clientSecret);
+    // return new checkoutNodeJssdk.core.SandboxEnvironment(clientId, clientSecret);
+    return new checkoutNodeJssdk.core.LiveEnvironment(clientId, clientSecret);
 }
 
 function client() {
@@ -21,7 +22,7 @@ async function getAccessToken() {
     const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
 
     const fetch = await getFetch();
-    const response = await fetch('https://api-m.sandbox.paypal.com/v1/oauth2/token', {
+    const response = await fetch(`${process.env.PAYPAL_API_URL}/v1/oauth2/token`, {
         method: 'POST',
         headers: {
             'Authorization': `Basic ${auth}`,
