@@ -8,4 +8,6 @@ router.get('/get', AuthVerifier, subscriptionController.getSubscription)
 
 router.get('/get-current-subscription', AuthVerifier, subscriptionController.getCurrentSubscription)
 
+router.post('/cancel', AuthVerifier, subscriptionController.cancelSubscription)
+
 module.exports = router

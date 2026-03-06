@@ -12,4 +12,6 @@ router.get('/get/:id', packageController.getPackageById)
 
 router.post('/subscribe/:id', AuthVerifier, packageController.subscribe)
 
+router.delete('/delete/:id', AuthVerifier, packageController.deletePackage)
+
 module.exports = router

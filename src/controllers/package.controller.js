@@ -109,16 +109,27 @@ const createPackage = async (req, res) => {
 
 const getPackage = async (req, res) => {
   try {
-    let { page, rowsPerPage, search, from, to, sortBy } = req.query;
+    let { page, rowsPerPage, search, from, to, sortBy, forPublic } = req.query;
+
+    let filter = {};
+    let sort = { createdAt: 1 };
+    let projection = {};
+
+    if (forPublic === '1' || forPublic === 'true') {
+      filter.price = 9.99;
+      filter.duration = /month/i;
+      let packages = await Package.find(filter).sort(sort).limit(1).lean();
+      return res.status(200).send({
+        success: true,
+        total: packages.length,
+        data: packages,
+      });
+    }
 
     let options = paginationHandler(page, rowsPerPage);
 
-    let filter = {};
-    let sort = { fullName: 1 };
-    let projection = {};
-
     if (search) {
-      filter = { ...filter, name: getSearchQuery(search) };
+      filter = { ...filter, title: getSearchQuery(search) };
     }
 
     if (from || to) {
@@ -233,9 +244,34 @@ const subscribe = async (req, res) => {
   }
 };
 
+const deletePackage = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const pkg = await Package.findById(id);
+    if (!pkg) {
+      return res.status(404).send({
+        success: false,
+        message: "Package not found",
+      });
+    }
+    await Package.findByIdAndDelete(id);
+    return res.status(200).send({
+      success: true,
+      message: "Package deleted successfully",
+    });
+  } catch (e) {
+    console.log("Error Message :: ", e);
+    return res.status(400).send({
+      success: false,
+      message: e.message,
+    });
+  }
+};
+
 module.exports = {
   createPackage,
   getPackage,
   getPackageById,
   subscribe,
+  deletePackage,
 };

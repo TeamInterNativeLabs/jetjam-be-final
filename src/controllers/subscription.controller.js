@@ -1,6 +1,6 @@
-const { getUserCurrentSubscription } = require('../helpers/paypal')
+const { getUserCurrentSubscription, cancelPayPalSubscription } = require('../helpers/paypal')
 const Subscription = require('../models/subscription.model')
-const { paginationHandler, getSearchQuery, getDateRangeQuery } = require('../utils')
+const { paginationHandler, getSearchQuery, getDateRangeQuery, ROLES } = require('../utils')
 
 const getSubscription = (async (req, res) => {
     try {
@@ -10,8 +10,12 @@ const getSubscription = (async (req, res) => {
         let options = paginationHandler(page, rowsPerPage)
 
         let filter = {}
-        let sort = { fullName: 1 }
+        let sort = { createdAt: -1 }
         let projection = {}
+
+        if (req.decoded?.id && req.decoded?.role !== ROLES.ADMIN) {
+            filter.user = req.decoded.id
+        }
 
         if (search) {
             filter = { ...filter, name: getSearchQuery(search) }
@@ -22,7 +26,7 @@ const getSubscription = (async (req, res) => {
         }
 
         if (req.query.hasOwnProperty('active')) {
-            filter.active = active
+            filter.active = active === 'true' || active === true
         }
 
         if (sortBy) {
@@ -57,7 +61,6 @@ const getCurrentSubscription = (async (req, res) => {
 
         return res.status(200).send({
             success: true,
-            total,
             data: current_subscription
         })
 
@@ -70,7 +73,54 @@ const getCurrentSubscription = (async (req, res) => {
     }
 })
 
+const cancelSubscription = (async (req, res) => {
+    try {
+        const { subscriptionId, id } = req.body || {}
+        const subId = subscriptionId || id
+        if (!subId) {
+            return res.status(400).send({
+                success: false,
+                message: 'subscriptionId or id is required'
+            })
+        }
+        const subscription = await Subscription.findOne({
+            $or: [{ _id: subId }, { method_subscription_id: subId }],
+            user: req.decoded.id
+        })
+        if (!subscription) {
+            return res.status(404).send({
+                success: false,
+                message: 'Subscription not found'
+            })
+        }
+        if (subscription.canceledAt) {
+            return res.status(200).send({
+                success: true,
+                message: 'Subscription already canceled'
+            })
+        }
+        try {
+            await cancelPayPalSubscription(subscription.method_subscription_id)
+        } catch (e) {
+            console.log('PayPal cancel error (continuing to mark canceled in DB):', e.message)
+        }
+        subscription.canceledAt = new Date()
+        await subscription.save()
+        return res.status(200).send({
+            success: true,
+            message: 'Subscription canceled. Access until end of billing period.'
+        })
+    } catch (e) {
+        console.log('Error Message :: ', e)
+        return res.status(400).send({
+            success: false,
+            message: e.message
+        })
+    }
+})
+
 module.exports = {
     getSubscription,
-    getCurrentSubscription
+    getCurrentSubscription,
+    cancelSubscription
 }

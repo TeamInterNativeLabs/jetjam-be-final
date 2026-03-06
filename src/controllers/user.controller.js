@@ -2,12 +2,14 @@ const mongoose = require('mongoose')
 const User = require('../models/user.model')
 const Subscription = require('../models/subscription.model')
 const { removeImage } = require('../helpers/image')
+const { comparePassword } = require('../helpers/encryption')
 const {
     paginationHandler,
     objectValidator,
     getSearchQuery,
     getDateRangeQuery,
     ERRORS,
+    ROLES,
 } = require('../utils')
 
 const createUser = (async (req, res) => {
@@ -93,6 +95,24 @@ const getUser = (async (req, res) => {
         let users = await User.find(filter, projection, options).sort(sort).lean()
 
         let total = await User.countDocuments(filter)
+
+        if (users?.length && req.decoded?.role === ROLES.ADMIN) {
+            const now = new Date()
+            for (const user of users) {
+                const sub = await Subscription.findOne({ user: user._id })
+                    .sort({ createdAt: -1 })
+                    .populate('package')
+                    .lean()
+                user.subscription = sub ? {
+                    plan: sub.package?.title,
+                    price: sub.package?.price,
+                    active: sub.active,
+                    createdAt: sub.createdAt,
+                    expiry: sub.expiry,
+                    canceledAt: sub.canceledAt,
+                } : null
+            }
+        }
 
         return res.status(200).send({
             success: true,
@@ -249,7 +269,16 @@ const getMyProfile = (async (req, res) => {
             __v: 0
         }
 
-        let user = await User.findById(id, projection)
+        let user = await User.findById(id, projection).lean()
+
+        const now = new Date()
+        const subscription = await Subscription.findOne({
+            user: id,
+            expiry: { $gte: now },
+            active: true,
+        }).populate('package')
+
+        user = user ? { ...user, subscription } : user
 
         return res.status(200).send({
             success: true,
