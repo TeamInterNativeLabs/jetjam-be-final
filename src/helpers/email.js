@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 dotenv.config();
 
 const transport = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "mail.privateemail.com",
     port: 465,
     secure: true,
     auth: {
@@ -14,28 +14,10 @@ const transport = nodemailer.createTransport({
 });
 
 const sendMail = (async (from, to, subject, text) => {
+    await transport.verify();
 
-    try {
-
-        let verified = await transport.verify();
-
-        if (verified) {
-
-            let mailOptions = {
-                from,
-                to,
-                subject,
-                text
-            };
-
-            return transport.sendMail(mailOptions);
-
-        }
-
-    } catch (e) {
-        console.log("Error Message :: ", e)
-    }
-
+    const mailOptions = { from, to, subject, text };
+    return transport.sendMail(mailOptions);
 })
 
 module.exports = { sendMail }

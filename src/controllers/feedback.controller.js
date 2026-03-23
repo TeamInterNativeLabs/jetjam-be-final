@@ -36,7 +36,7 @@ This email was automatically generated from the JetJams contact form.`
 
             await sendMail(
                 process.env.EMAIL_FORMAIL,
-                'johnny@jetjams.net',
+                'johnnyo@jetjams.net',
                 emailSubject,
                 emailText
             )
