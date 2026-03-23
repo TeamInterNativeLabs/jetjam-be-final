@@ -47,7 +47,19 @@ module.exports = {
                 }
 
                 if (subscription) {
-                    req.access_to = subscription.package.genre
+                    // Allow access if active AND (not canceled OR not yet expired)
+                    const now = new Date()
+                    const accessValid = subscription.active && (
+                        !subscription.canceledAt || new Date(subscription.expiry) > now
+                    )
+                    if (accessValid) {
+                        req.access_to = subscription.package.genre
+                    }
+                    // If expired after cancel, flip active off so future queries are clean
+                    if (subscription.canceledAt && new Date(subscription.expiry) <= now && subscription.active) {
+                        subscription.active = false
+                        subscription.save().catch(() => {})
+                    }
                 }
 
             }

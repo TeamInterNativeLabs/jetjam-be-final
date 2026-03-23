@@ -206,8 +206,8 @@ const subscribe = async (req, res) => {
         brand_name: "Jet Jams LLC",
         locale: "en-US",
         user_action: "SUBSCRIBE_NOW",
-        return_url: "https://jetjams.net",
-        cancel_url: "https://jetjams.net",
+        return_url: `${process.env.SITE_URL || 'https://www.jetjams.net'}/subscription-confirm`,
+        cancel_url: `${process.env.SITE_URL || 'https://www.jetjams.net'}/subscription-plans`,
       },
       custom_id: user._id,
     };
