@@ -116,9 +116,9 @@ const getPackage = async (req, res) => {
     let projection = {};
 
     if (forPublic === '1' || forPublic === 'true') {
-      filter.price = 9.99;
+      // Return all monthly plans for public display (e.g. $9.99 plan + $1 test plan)
       filter.duration = /month/i;
-      let packages = await Package.find(filter).sort(sort).limit(1).lean();
+      let packages = await Package.find(filter).sort(sort).lean();
       return res.status(200).send({
         success: true,
         total: packages.length,
