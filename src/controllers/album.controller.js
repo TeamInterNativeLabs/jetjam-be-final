@@ -566,14 +566,13 @@ const getAlbumById = async (req, res) => {
             playable: {
               $or: [{ $in: ["$genre", access_to] }, { $eq: ["$free", true] }],
             },
-            file: {
+          },
+        },
+        {
+          $addFields: {
+            file_url: {
               $cond: {
-                if: {
-                  $or: [
-                    { $in: ["$genre", access_to] },
-                    { $eq: ["$free", true] },
-                  ],
-                },
+                if: { $eq: ["$playable", true] },
                 then: "$file",
                 else: null,
               },
