@@ -2,3 +2,10 @@
 /public
 /uploads
 
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+src/configs/*firebase-adminsdk*.json
+
