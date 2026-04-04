@@ -69,9 +69,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors())
 
-// Serve uploaded images first so GET /uploads/images/xxx.jpg works
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 app.use(`/${process.env.APP_NAME}/v1/api`, routes)
+app.use('/uploads', express.static(path.join(__dirname, "uploads")));
 
 let server = instance.createServer(credentials, app)
 

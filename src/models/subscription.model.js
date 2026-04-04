@@ -22,10 +22,6 @@ const subscriptionSchema = mongoose.Schema({
     active: {
         type: Boolean,
         default: true
-    },
-    canceledAt: {
-        type: Date,
-        default: null
     }
 }, { timestamps: true })
 

@@ -1,5 +1,4 @@
 const Feedback = require('../models/feedback.model')
-const { sendMail } = require('../helpers/email')
 const { ERRORS, objectValidator, paginationHandler, getSearchQuery, getDateRangeQuery } = require('../utils')
 
 const createFeedback = (async (req, res) => {
@@ -17,38 +16,9 @@ const createFeedback = (async (req, res) => {
 
         await feedback.save()
 
-        // Send email notification
-        try {
-            const emailSubject = `Contact Form Submission: ${body.subject}`
-            const emailText = `New contact form submission from JetJams website:
-
-Name: ${body.name}
-Email: ${body.email}
-Subject: ${body.subject}
-
-Message:
-${body.message}
-
-Submitted on: ${new Date().toLocaleString()}
-
----
-This email was automatically generated from the JetJams contact form.`
-
-            await sendMail(
-                process.env.EMAIL_FORMAIL,
-                'johnny@jetjams.net',
-                emailSubject,
-                emailText
-            )
-            console.log('Contact form email sent successfully to johnny@jetjams.net')
-        } catch (emailError) {
-            console.error('Failed to send contact form email:', emailError)
-            // Don't fail the request if email fails - user still gets success response
-        }
-
         return res.status(200).send({
             success: true,
-            message: "Feedback Successfully Saved and Email Sent",
+            message: "Feedback Successfully Saved",
             data: feedback
         })
 
