@@ -91,6 +91,25 @@ app.post('/webhook/paypal', express.json(), async (req, res) => {
             case 'BILLING.SUBSCRIPTION.CREATED':
                 console.log('[WEBHOOK] Subscription created:', webhookEvent?.resource?.id)
                 break
+            case 'BILLING.SUBSCRIPTION.EXPIRED': {
+                // Mark as inactive when subscription expires
+                await Subscription.findOneAndUpdate(
+                    { method_subscription_id: webhookEvent?.resource?.id },
+                    { active: false }
+                )
+                console.log('[WEBHOOK] Subscription expired:', webhookEvent?.resource?.id)
+                break
+            }
+            case 'BILLING.SUBSCRIPTION.RE_ACTIVATED': {
+                // Re-activate subscription
+                const reactivatedExpiry = webhookEvent?.resource?.billing_info?.next_billing_time
+                await Subscription.findOneAndUpdate(
+                    { method_subscription_id: webhookEvent?.resource?.id },
+                    { active: true, canceledAt: null, ...(reactivatedExpiry ? { expiry: reactivatedExpiry } : {}) }
+                )
+                console.log('[WEBHOOK] Subscription re-activated:', webhookEvent?.resource?.id)
+                break
+            }
             case 'PAYMENT.SALE.COMPLETED':
                 console.log('[WEBHOOK] Payment completed for subscription:', webhookEvent?.resource?.billing_agreement_id)
                 break
