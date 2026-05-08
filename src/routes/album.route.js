@@ -22,10 +22,19 @@ router.get("/get/:id", ByPass, albumController.getAlbumById);
 
 router.patch("/handle-status/:id", AuthVerifier, albumController.handleStatus);
 
+router.put("/update/:id", AuthVerifier, albumController.updateAlbum);
+
 router.delete("/delete/:id", AuthVerifier, albumController.deleteAlbum);
 
-router.post("/create-album-order", albumController.create_album_order);
+// Album purchase — create-album-order now requires auth so we can record userId
+router.post("/create-album-order", ByPass, albumController.create_album_order);
 
-router.post("/capture-album-order", albumController.capture_album_order);
+router.post("/capture-album-order", ByPass, albumController.capture_album_order);
+
+// Get all albums purchased by the logged-in user
+router.get("/my-purchases", AuthVerifier, albumController.getMyPurchases);
+
+// Secure download — verifies purchase before serving the file
+router.get("/download/:albumId", AuthVerifier, albumController.downloadAlbum);
 
 module.exports = router;

@@ -1,5 +1,6 @@
 const User = require("../models/user.model");
 const Package = require("../models/package.model");
+const Subscription = require("../models/subscription.model");
 const {
   ERRORS,
   objectValidator,
@@ -192,7 +193,15 @@ const subscribe = async (req, res) => {
 
     const accessToken = await paypalClient.getAccessToken();
 
-    const url = `${process.env.PAYPAL_API_URL}/v1/billing/subscriptions`;
+    // Check if user has an existing active or canceled-but-unexpired subscription
+    const now = new Date();
+    const existingSubscription = await Subscription.findOne({
+      user: decoded.id,
+      active: true,
+      expiry: { $gt: now }
+    }).sort({ expiry: -1 });
+
+    // Build the PayPal payload
     const payload = {
       plan_id: package?.method_plan_id,
       subscriber: {
@@ -209,8 +218,19 @@ const subscribe = async (req, res) => {
         return_url: `${process.env.SITE_URL || 'https://www.jetjams.net'}/subscription-confirm`,
         cancel_url: `${process.env.SITE_URL || 'https://www.jetjams.net'}/subscription-plans`,
       },
-      custom_id: user._id,
+      custom_id: String(user._id),
     };
+
+    // If user has a canceled subscription that hasn't expired yet,
+    // set start_time to the expiry date so PayPal won't charge until then
+    if (existingSubscription && existingSubscription.canceledAt) {
+      const expiryDate = new Date(existingSubscription.expiry);
+      // PayPal requires start_time to be at least 60 seconds in the future
+      // and in ISO 8601 format with timezone
+      payload.start_time = expiryDate.toISOString();
+    }
+
+    const url = `${process.env.PAYPAL_API_URL}/v1/billing/subscriptions`;
 
     const response = await fetch(url, {
       method: "POST",
@@ -231,9 +251,19 @@ const subscribe = async (req, res) => {
       (item) => item.rel === "approve"
     );
 
+    // Tell the frontend whether this is a deferred subscription
+    // so it can show the right message to the user
+    const isDeferred = !!(existingSubscription && existingSubscription.canceledAt);
+    const deferredUntil = isDeferred ? existingSubscription.expiry : null;
+
     return res.status(200).send({
       success: true,
-      data: { ...subscriptionResult, link: link?.[0]?.href },
+      data: {
+        ...subscriptionResult,
+        link: link?.[0]?.href,
+        isDeferred,
+        deferredUntil,
+      },
     });
   } catch (e) {
     console.log("Error Message :: ", e);

@@ -11,4 +11,8 @@ router.post('/verify-otp', authController.verifyOtp)
 
 router.post('/reset-password', authController.resetPassword)
 
+router.post('/send-verification-email', authController.sendVerificationEmail)
+
+router.post('/verify-email', authController.verifyEmail)
+
 module.exports = router

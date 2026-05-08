@@ -6,6 +6,7 @@ const cors = require('cors')
 const path = require('path')
 const logger = require('morgan')
 const dotenv = require('dotenv')
+const cron = require('node-cron')
 const routes = require('./src/routes')
 const { connectDatabase } = require('./src/configs/dbConnection')
 const { makeFolders } = require('./src/helpers/image')
@@ -34,33 +35,73 @@ let app = express()
 
 app.post('/webhook/paypal', express.json(), async (req, res) => {
     const webhookEvent = req.body;
+    console.log('[WEBHOOK] PayPal event received:', webhookEvent.event_type)
 
-    switch (webhookEvent.event_type) {
-        case 'BILLING.SUBSCRIPTION.ACTIVATED':
-            let package = await Package.findOne({ method_plan_id: webhookEvent?.resource?.plan_id })
-            let payload = {
-                user: webhookEvent?.resource?.custom_id,
-                package: package?._id,
-                method_subscription_id: webhookEvent?.resource?.id,
-                expiry: webhookEvent?.resource?.billing_info?.next_billing_time
+    try {
+        switch (webhookEvent.event_type) {
+            case 'BILLING.SUBSCRIPTION.ACTIVATED': {
+                const pkg = await Package.findOne({ method_plan_id: webhookEvent?.resource?.plan_id })
+                if (pkg) {
+                    const existing = await Subscription.findOne({ method_subscription_id: webhookEvent?.resource?.id })
+                    if (!existing) {
+                        const payload = {
+                            user: webhookEvent?.resource?.custom_id,
+                            package: pkg?._id,
+                            method_subscription_id: webhookEvent?.resource?.id,
+                            expiry: webhookEvent?.resource?.billing_info?.next_billing_time,
+                            active: true
+                        }
+                        const subscription = new Subscription(payload)
+                        await subscription.save()
+                        console.log('[WEBHOOK] Subscription activated and saved:', webhookEvent?.resource?.id)
+                    }
+                }
+                break
             }
-            let subscription = new Subscription(payload)
-            await subscription.save()
-            break;
-        case 'BILLING.SUBSCRIPTION.CREATED':
-            console.log('Subscription created:', webhookEvent);
-            break;
-        case 'BILLING.SUBSCRIPTION.CANCELLED':
-            console.log('Subscription cancelled:', webhookEvent);
-            break;
-        case 'PAYMENT.SALE.COMPLETED':
-            console.log('Payment completed:', webhookEvent);
-            break;
-        default:
-            console.log('Unhandled event type:', webhookEvent.event_type);
+            case 'BILLING.SUBSCRIPTION.CANCELLED': {
+                await Subscription.findOneAndUpdate(
+                    { method_subscription_id: webhookEvent?.resource?.id },
+                    { canceledAt: new Date() }
+                )
+                console.log('[WEBHOOK] Subscription cancelled:', webhookEvent?.resource?.id)
+                break
+            }
+            case 'BILLING.SUBSCRIPTION.SUSPENDED':
+            case 'BILLING.SUBSCRIPTION.PAYMENT.FAILED': {
+                // Mark as inactive on payment failure
+                await Subscription.findOneAndUpdate(
+                    { method_subscription_id: webhookEvent?.resource?.id },
+                    { active: false }
+                )
+                console.log('[WEBHOOK] Subscription suspended/payment failed:', webhookEvent?.resource?.id)
+                break
+            }
+            case 'BILLING.SUBSCRIPTION.RENEWED': {
+                // Update expiry on renewal
+                const newExpiry = webhookEvent?.resource?.billing_info?.next_billing_time
+                if (newExpiry) {
+                    await Subscription.findOneAndUpdate(
+                        { method_subscription_id: webhookEvent?.resource?.id },
+                        { expiry: newExpiry, active: true, canceledAt: null }
+                    )
+                    console.log('[WEBHOOK] Subscription renewed, new expiry:', newExpiry)
+                }
+                break
+            }
+            case 'BILLING.SUBSCRIPTION.CREATED':
+                console.log('[WEBHOOK] Subscription created:', webhookEvent?.resource?.id)
+                break
+            case 'PAYMENT.SALE.COMPLETED':
+                console.log('[WEBHOOK] Payment completed for subscription:', webhookEvent?.resource?.billing_agreement_id)
+                break
+            default:
+                console.log('[WEBHOOK] Unhandled event type:', webhookEvent.event_type)
+        }
+    } catch (e) {
+        console.log('[WEBHOOK] Error processing event:', e.message)
     }
 
-    return res.status(200).send('Webhook received');
+    return res.status(200).send('Webhook received')
 });
 
 app.use(logger('dev'))
@@ -80,6 +121,23 @@ const serverHandler = async () => {
         console.log(`Server started 🚀 Running on port ${PORT}.`)
         makeFolders()
         await connectDatabase(dbName, connectionString)
+
+        // Run every day at midnight — expire subscriptions whose billing period has ended
+        cron.schedule('0 0 * * *', async () => {
+            try {
+                const now = new Date()
+                const result = await Subscription.updateMany(
+                    { active: true, expiry: { $lt: now } },
+                    { $set: { active: false } }
+                )
+                if (result.modifiedCount > 0) {
+                    console.log(`[CRON] Expired ${result.modifiedCount} subscription(s)`)
+                }
+            } catch (e) {
+                console.log('[CRON] Error expiring subscriptions:', e.message)
+            }
+        })
+        console.log('[CRON] Subscription expiry job scheduled (daily at midnight)')
     } catch (e) {
         console.log("Error while connecting server :: ", e)
     }

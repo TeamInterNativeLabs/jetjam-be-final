@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Album = require("../models/album.model");
 const PaidAlbum = require("../models/paid_album.model");
+const AlbumPurchase = require("../models/album_purchase.model");
 const Track = require("../models/track.model");
 const { removeImage } = require("../helpers/image");
 const {
@@ -18,7 +19,20 @@ const paypalClient = require("../configs/paypal");
 const create_album_order = async (req, res, next) => {
   try {
     const accessToken = await paypalClient.getAccessToken();
-    const { price } = req.body;
+    const { albumId, price } = req.body;
+
+    if (!albumId || !price) {
+      return res.status(400).json({ success: false, message: 'albumId and price are required' });
+    }
+
+    // Verify the album exists and get its actual price
+    const album = await PaidAlbum.findById(albumId);
+    if (!album) {
+      return res.status(404).json({ success: false, message: 'Album not found' });
+    }
+
+    // FIX: use album's actual price, formatted correctly
+    const formattedPrice = parseFloat(album.price).toFixed(2);
 
     const order = await fetch(
       `${process.env.PAYPAL_API_URL}/v2/checkout/orders`,
@@ -32,9 +46,11 @@ const create_album_order = async (req, res, next) => {
           intent: "CAPTURE",
           purchase_units: [
             {
+              reference_id: albumId, // store albumId so we can retrieve it on capture
+              description: album.name,
               amount: {
                 currency_code: "USD",
-                value: `${price}.00`,
+                value: formattedPrice,
               },
             },
           ],
@@ -43,21 +59,29 @@ const create_album_order = async (req, res, next) => {
     );
 
     const _order = await order.json();
-    console.log(_order, "order");
+
+    if (!_order.id) {
+      return res.status(400).json({ success: false, message: 'PayPal order creation failed', details: _order });
+    }
 
     return res.status(201).json({ id: _order.id });
   } catch (error) {
-    console.log(error);
+    console.log('create_album_order error:', error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 };
 
 const capture_album_order = async (req, res, next) => {
   try {
     const { order_id } = req.body;
-    const accessToken = await paypalClient.getAccessToken();
-    const album = await Album.findOne();
-    console.log(album);
 
+    if (!order_id) {
+      return res.status(400).json({ success: false, message: 'order_id is required' });
+    }
+
+    const accessToken = await paypalClient.getAccessToken();
+
+    // Capture the order
     const capture = await fetch(
       `${process.env.PAYPAL_API_URL}/v2/checkout/orders/${order_id}/capture`,
       {
@@ -66,26 +90,41 @@ const capture_album_order = async (req, res, next) => {
           "Content-Type": "application/json",
           Authorization: `Bearer ${accessToken}`,
         },
-        body: JSON.stringify({
-          intent: "CAPTURE",
-          purchase_units: [
-            {
-              amount: {
-                currency_code: "USD",
-                value: "10.00",
-              },
-            },
-          ],
-        }),
       }
     );
 
     const _order = await capture.json();
-    console.log(_order, "order");
 
-    return res.status(201).json({ id: _order.id });
+    if (_order.status !== 'COMPLETED') {
+      return res.status(400).json({ success: false, message: `Payment not completed. Status: ${_order.status}` });
+    }
+
+    // FIX: get the albumId from the order's reference_id
+    const albumId = _order.purchase_units?.[0]?.reference_id;
+    const amountPaid = parseFloat(_order.purchase_units?.[0]?.payments?.captures?.[0]?.amount?.value || 0);
+
+    if (albumId) {
+      // Record the purchase against the user if authenticated
+      const userId = req.decoded?.id || req.body.userId || null;
+      if (userId) {
+        // Check not already recorded (idempotent)
+        const existing = await AlbumPurchase.findOne({ paypal_order_id: order_id });
+        if (!existing) {
+          const purchase = new AlbumPurchase({
+            user: userId,
+            album: albumId,
+            paypal_order_id: order_id,
+            amount_paid: amountPaid,
+          });
+          await purchase.save();
+        }
+      }
+    }
+
+    return res.status(201).json({ success: true, id: _order.id, status: _order.status });
   } catch (error) {
-    console.log(error);
+    console.log('capture_album_order error:', error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 };
 
@@ -664,6 +703,99 @@ const deleteAlbum = async (req, res) => {
   }
 };
 
+const updateAlbum = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { body } = req;
+
+    const album = await Album.findById(id);
+    if (!album) {
+      return res.status(404).send({ success: false, message: 'Album not found' });
+    }
+
+    // If new tracks provided, replace them
+    if (body.tracks && Array.isArray(body.tracks)) {
+      // Delete old tracks
+      await Track.deleteMany({ _id: { $in: album.tracks } });
+      // Insert new tracks
+      const newTracks = await Track.insertMany(
+        body.tracks.map(t => typeof t === 'object' && !t._id ? t : { name: t.name || t })
+      );
+      body.tracks = newTracks.map(t => t._id);
+    }
+
+    const updated = await Album.findByIdAndUpdate(id, body, { new: true }).populate('genre');
+
+    return res.status(200).send({
+      success: true,
+      message: 'Album Successfully Updated',
+      data: updated,
+    });
+  } catch (e) {
+    console.log('updateAlbum error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+const getMyPurchases = async (req, res) => {
+  try {
+    const userId = req.decoded.id;
+    const purchases = await AlbumPurchase.find({ user: userId })
+      .populate('album')
+      .sort({ createdAt: -1 });
+
+    return res.status(200).send({
+      success: true,
+      data: purchases,
+    });
+  } catch (e) {
+    console.log('getMyPurchases error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Secure download — verifies the user has purchased the album before serving the file
+const downloadAlbum = async (req, res) => {
+  try {
+    const { albumId } = req.params;
+    const userId = req.decoded.id;
+
+    // Check the user has a purchase record for this album
+    const purchase = await AlbumPurchase.findOne({ user: userId, album: albumId });
+    if (!purchase) {
+      return res.status(403).send({
+        success: false,
+        message: 'You have not purchased this album.'
+      });
+    }
+
+    const album = await PaidAlbum.findById(albumId);
+    if (!album || !album.file) {
+      return res.status(404).send({ success: false, message: 'Album file not found.' });
+    }
+
+    // Build the absolute path to the file
+    const path = require('path');
+    const fs = require('fs');
+    const filePath = path.join(__dirname, '../../../', album.file);
+
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).send({ success: false, message: 'File not found on server.' });
+    }
+
+    // Set headers for file download
+    const fileName = `${album.name.replace(/[^a-z0-9]/gi, '_')}.zip`;
+    res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
+    res.setHeader('Content-Type', 'application/zip');
+
+    const fileStream = fs.createReadStream(filePath);
+    fileStream.pipe(res);
+  } catch (e) {
+    console.log('downloadAlbum error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
 module.exports = {
   createPaidAlbum,
   getPaidAlbum,
@@ -675,4 +807,7 @@ module.exports = {
   deleteAlbum,
   create_album_order,
   capture_album_order,
+  getMyPurchases,
+  updateAlbum,
+  downloadAlbum,
 };

@@ -40,6 +40,16 @@ const login = async (req, res) => {
       throw new Error(ERRORS.BLOCKEDBY_ADMIN);
     }
 
+    // Block login if email not verified (skip for admin logins)
+    if (requestedUser === ROLES.USER && !userExist.email_verified) {
+      return res.status(403).send({
+        success: false,
+        message: 'Please verify your email before logging in. Check your inbox for the verification code.',
+        email_unverified: true,
+        email: userExist.email
+      });
+    }
+
     let token = await generateToken({
       id: userExist._id,
       email: userExist.email,
@@ -119,10 +129,10 @@ const forgetPassword = async (req, res) => {
     console.log(otp, "otp-----------------------");
 
     await sendMail(
-      "The Watchers <noreply@thewatchers.com>",
+      `JetJams <johnnyo@jetjams.net>`,
       userExist.email,
-      "Password Recovery Code",
-      otp
+      "JetJams — Password Recovery Code",
+      `Your JetJams password recovery code is: ${otp}\n\nThis code expires in 1 hour.\n\nIf you did not request this, please ignore this email.`
     );
 
     return res.status(200).send({
@@ -206,9 +216,76 @@ const resetPassword = async (req, res) => {
   }
 };
 
+// Called after registration — sends OTP to verify email
+const sendVerificationEmail = async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) throw new Error('Email is required');
+
+    const user = await User.findOne({ email }, { _id: 1, email: 1, email_verified: 1 });
+    if (!user) throw new Error(ERRORS.USER_NOTEXIST);
+
+    if (user.email_verified) {
+      return res.status(200).send({ success: true, message: 'Email already verified' });
+    }
+
+    await Otp.deleteMany({ userId: user._id });
+
+    const otp = await generateOTP();
+    const expiry = new Date();
+    expiry.setHours(expiry.getHours() + 1);
+
+    await new Otp({ otp, expiry, userId: user._id }).save();
+
+    await sendMail(
+      `JetJams <johnnyo@jetjams.net>`,
+      user.email,
+      'JetJams — Verify Your Email',
+      `Welcome to JetJams!\n\nYour email verification code is: ${otp}\n\nThis code expires in 1 hour.\n\nIf you did not create an account, please ignore this email.`
+    );
+
+    return res.status(200).send({ success: true, message: 'Verification code sent to your email' });
+  } catch (e) {
+    console.log('sendVerificationEmail error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Verifies the OTP and marks email as verified
+const verifyEmail = async (req, res) => {
+  try {
+    const { email, otp } = req.body;
+    if (!email || !otp) throw new Error('Email and OTP are required');
+
+    const user = await User.findOne({ email });
+    if (!user) throw new Error(ERRORS.USER_NOTEXIST);
+
+    if (user.email_verified) {
+      return res.status(200).send({ success: true, message: 'Email already verified' });
+    }
+
+    const otpRecord = await Otp.findOne({ userId: user._id });
+    if (!otpRecord) throw new Error('No verification code found. Please request a new one.');
+
+    const now = new Date();
+    if (now > otpRecord.expiry) throw new Error('Verification code has expired. Please request a new one.');
+    if (String(otp) !== String(otpRecord.otp)) throw new Error('Invalid verification code');
+
+    await User.findByIdAndUpdate(user._id, { email_verified: true });
+    await Otp.deleteMany({ userId: user._id });
+
+    return res.status(200).send({ success: true, message: 'Email verified successfully. You can now log in.' });
+  } catch (e) {
+    console.log('verifyEmail error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
 module.exports = {
   login,
   forgetPassword,
   verifyOtp,
   resetPassword,
+  sendVerificationEmail,
+  verifyEmail,
 };

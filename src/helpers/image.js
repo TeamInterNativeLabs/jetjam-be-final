@@ -12,6 +12,7 @@ const makeFolders = (() => {
     const audioFolder = directory.join(__dirname, "../../uploads/audio")
     const imagesFolder = directory.join(__dirname, "../../uploads/images")
     const videosFolder = directory.join(__dirname, "../../uploads/videos")
+    const zipsFolder = directory.join(__dirname, "../../uploads/zips")
 
     if (!fs.existsSync(audioFolder)) {
         fs.mkdirSync(audioFolder)
@@ -23,6 +24,10 @@ const makeFolders = (() => {
 
     if (!fs.existsSync(videosFolder)) {
         fs.mkdirSync(videosFolder)
+    }
+
+    if (!fs.existsSync(zipsFolder)) {
+        fs.mkdirSync(zipsFolder)
     }
 
 })
