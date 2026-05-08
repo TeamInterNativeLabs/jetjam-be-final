@@ -2,8 +2,11 @@ const express = require('express')
 const router = express.Router()
 
 const authController = require('../controllers/authentication.controller')
+const { ByPass } = require('../middlewares/auth.middleware')
 
 router.post('/login', authController.login)
+
+router.post('/logout', ByPass, authController.logout)
 
 router.post('/forget-password', authController.forgetPassword)
 

@@ -283,6 +283,20 @@ const verifyEmail = async (req, res) => {
 
 module.exports = {
   login,
+  logout: async (req, res) => {
+    // JWT is stateless — client clears the token.
+    // This endpoint exists so the client can call it on logout
+    // and we can log the event / invalidate device tokens if needed.
+    try {
+      if (req.decoded?.id) {
+        // Remove device token if present
+        await User.findByIdAndUpdate(req.decoded.id, { $set: { device_ids: [] } })
+      }
+      return res.status(200).send({ success: true, message: 'Logged out successfully' })
+    } catch (e) {
+      return res.status(200).send({ success: true, message: 'Logged out' })
+    }
+  },
   forgetPassword,
   verifyOtp,
   resetPassword,
