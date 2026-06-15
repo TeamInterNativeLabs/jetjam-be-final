@@ -69,7 +69,7 @@ const getFeedback = (async (req, res) => {
         let options = paginationHandler(page, rowsPerPage)
 
         let filter = {}
-        let sort = { fullName: 1 }
+        let sort = { createdAt: -1 }
         let projection = {}
 
         if (search) {
