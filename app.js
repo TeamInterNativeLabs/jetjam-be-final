@@ -127,7 +127,18 @@ app.use(logger('dev'))
 app.use(express.json({ limit: "350mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(cors())
+app.use(cors({
+    origin: [
+        'https://www.jetjams.net',
+        'https://jetjams.net',
+        'https://admin.jetjams.net',
+        'http://localhost:3000',
+        'http://localhost:5173',
+    ],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}))
 
 // Serve uploaded images first so GET /uploads/images/xxx.jpg works
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
