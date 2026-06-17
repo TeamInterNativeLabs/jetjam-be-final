@@ -81,7 +81,6 @@ const capture_album_order = async (req, res, next) => {
 
     const accessToken = await paypalClient.getAccessToken();
 
-    // Capture the order
     const capture = await fetch(
       `${process.env.PAYPAL_API_URL}/v2/checkout/orders/${order_id}/capture`,
       {
@@ -99,29 +98,84 @@ const capture_album_order = async (req, res, next) => {
       return res.status(400).json({ success: false, message: `Payment not completed. Status: ${_order.status}` });
     }
 
-    // FIX: get the albumId from the order's reference_id
-    const albumId = _order.purchase_units?.[0]?.reference_id;
+    const albumId    = _order.purchase_units?.[0]?.reference_id;
     const amountPaid = parseFloat(_order.purchase_units?.[0]?.payments?.captures?.[0]?.amount?.value || 0);
+    const payerEmail = _order.payer?.email_address;
+    const payerFirst = _order.payer?.name?.given_name || '';
+    const payerLast  = _order.payer?.name?.surname || '';
+    const payerName  = `${payerFirst} ${payerLast}`.trim();
 
-    if (albumId) {
-      // Record the purchase against the user if authenticated
-      const userId = req.decoded?.id || req.body.userId || null;
-      if (userId) {
-        // Check not already recorded (idempotent)
-        const existing = await AlbumPurchase.findOne({ paypal_order_id: order_id });
-        if (!existing) {
-          const purchase = new AlbumPurchase({
-            user: userId,
-            album: albumId,
-            paypal_order_id: order_id,
-            amount_paid: amountPaid,
-          });
-          await purchase.save();
+    // Extract billing address
+    const shipping    = _order.purchase_units?.[0]?.shipping?.address;
+    const payerAddr   = shipping
+      ? [shipping.address_line_1, shipping.address_line_2, shipping.admin_area_2, shipping.admin_area_1, shipping.postal_code, shipping.country_code]
+          .filter(Boolean).join(', ')
+      : null;
+
+    if (!albumId) {
+      return res.status(400).json({ success: false, message: 'Could not determine album from order' });
+    }
+
+    // Check already recorded (idempotent)
+    let purchase = await AlbumPurchase.findOne({ paypal_order_id: order_id });
+
+    if (!purchase) {
+      // Try to find registered user by payer email
+      let userIdToSave = req.decoded?.id || null;
+      if (!userIdToSave && payerEmail) {
+        try {
+          const User = require('../models/user.model');
+          const user = await User.findOne({ email: payerEmail });
+          if (user) userIdToSave = user._id;
+        } catch (_) {}
+      }
+
+      // Generate a secure random download token (no expiry)
+      const crypto = require('crypto');
+      const downloadToken = crypto.randomBytes(32).toString('hex');
+
+      purchase = new AlbumPurchase({
+        ...(userIdToSave ? { user: userIdToSave } : {}),
+        album:           albumId,
+        paypal_order_id: order_id,
+        amount_paid:     amountPaid,
+        payer_email:     payerEmail || null,
+        payer_name:      payerName  || null,
+        payer_address:   payerAddr  || null,
+        download_token:  downloadToken,
+      });
+      await purchase.save();
+
+      // Send lifetime download email
+      try {
+        const { sendMail } = require('../helpers/email');
+        const album = await PaidAlbum.findById(albumId);
+        const recipientEmail = payerEmail;
+
+        if (recipientEmail && album) {
+          const siteUrl = process.env.SITE_URL?.replace(/\/$/, '') || 'https://www.jetjams.net';
+          const downloadUrl = `${siteUrl}/album-download/${downloadToken}`;
+
+          await sendMail(
+            `JetJams <johnnyo@jetjams.net>`,
+            recipientEmail,
+            `Your JetJams Download: ${album.name}`,
+            `Hi ${payerName || 'there'},\n\nThank you for purchasing "${album.name}" on JetJams!\n\nYour payment of $${amountPaid} has been received.\n\nYou can download your album anytime using this permanent link:\n\n${downloadUrl}\n\nThis link never expires — you can use it as many times as you like.\n\nThank you for supporting the artists!\n\nThe JetJams Team\nhttps://www.jetjams.net`
+          );
+          console.log(`[ALBUM PURCHASE] Email sent to ${recipientEmail} for "${album.name}"`);
         }
+      } catch (emailErr) {
+        console.log('[ALBUM PURCHASE] Email send failed (non-fatal):', emailErr.message);
       }
     }
 
-    return res.status(201).json({ success: true, id: _order.id, status: _order.status });
+    return res.status(201).json({
+      success:        true,
+      id:             _order.id,
+      status:         _order.status,
+      download_token: purchase.download_token,
+      payer_email:    purchase.payer_email,
+    });
   } catch (error) {
     console.log('capture_album_order error:', error);
     return res.status(500).json({ success: false, message: error.message });
@@ -715,9 +769,7 @@ const updateAlbum = async (req, res) => {
 
     // If new tracks provided, replace them
     if (body.tracks && Array.isArray(body.tracks)) {
-      // Delete old tracks
       await Track.deleteMany({ _id: { $in: album.tracks } });
-      // Insert new tracks
       const newTracks = await Track.insertMany(
         body.tracks.map(t => typeof t === 'object' && !t._id ? t : { name: t.name || t })
       );
@@ -733,6 +785,89 @@ const updateAlbum = async (req, res) => {
     });
   } catch (e) {
     console.log('updateAlbum error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Update a PaidAlbum by ID
+const updatePaidAlbum = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const body = { ...req.body };
+
+    const album = await PaidAlbum.findById(id);
+    if (!album) {
+      return res.status(404).send({ success: false, message: 'Paid album not found' });
+    }
+
+    // Replace tracks if new ones provided
+    if (body.tracks && Array.isArray(body.tracks)) {
+      await Track.deleteMany({ _id: { $in: album.tracks } });
+      const newTracks = await Track.insertMany(
+        body.tracks.map(t => typeof t === 'object' && !t._id ? t : { name: t.name || t })
+      );
+      body.tracks = newTracks.map(t => t._id);
+    }
+
+    // Remove read-only fields
+    delete body._id; delete body.__v; delete body.createdAt; delete body.updatedAt;
+
+    const updated = await PaidAlbum.findByIdAndUpdate(id, body, { new: true }).populate('genre tracks');
+
+    return res.status(200).send({
+      success: true,
+      message: 'Paid Album Successfully Updated',
+      data: updated,
+    });
+  } catch (e) {
+    console.log('updatePaidAlbum error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Get a single PaidAlbum by ID (for admin edit/detail view)
+const getPaidAlbumById = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const album = await PaidAlbum.findById(id).populate('genre tracks');
+    if (!album) {
+      return res.status(404).send({ success: false, message: 'Paid album not found' });
+    }
+    return res.status(200).send({ success: true, data: album });
+  } catch (e) {
+    console.log('getPaidAlbumById error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Delete a PaidAlbum by ID
+const deletePaidAlbum = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const album = await PaidAlbum.findById(id);
+    if (!album) {
+      return res.status(404).send({ success: false, message: 'Paid album not found' });
+    }
+    await Track.deleteMany({ _id: { $in: album.tracks } });
+    removeImage(album?.image);
+    removeImage(album?.file);
+    await PaidAlbum.findByIdAndDelete(id);
+    return res.status(200).send({ success: true, message: 'Paid Album Deleted Successfully' });
+  } catch (e) {
+    console.log('deletePaidAlbum error:', e);
+    return res.status(400).send({ success: false, message: e.message });
+  }
+};
+
+// Toggle active status on PaidAlbum
+const handlePaidAlbumStatus = async (req, res) => {
+  try {
+    const album = await PaidAlbum.findById(req.params.id);
+    if (!album) return res.status(404).send({ success: false, message: 'Paid album not found' });
+    album.active = !album.active;
+    await album.save();
+    return res.status(200).send({ success: true, message: 'Status Updated' });
+  } catch (e) {
     return res.status(400).send({ success: false, message: e.message });
   }
 };
@@ -796,10 +931,46 @@ const downloadAlbum = async (req, res) => {
   }
 };
 
+// Download by secure token — no auth required, lifetime access
+const downloadByToken = async (req, res) => {
+  try {
+    const { token } = req.params;
+    const purchase = await AlbumPurchase.findOne({ download_token: token });
+    if (!purchase) {
+      return res.status(403).json({ success: false, message: 'Invalid or expired download link.' });
+    }
+
+    const album = await PaidAlbum.findById(purchase.album);
+    if (!album || !album.file) {
+      return res.status(404).json({ success: false, message: 'Album file not found.' });
+    }
+
+    const pathMod  = require('path');
+    const fs2      = require('fs');
+    const filePath = pathMod.join(__dirname, '../../../', album.file.replace(/\\/g, '/'));
+
+    if (!fs2.existsSync(filePath)) {
+      return res.status(404).json({ success: false, message: 'File not found on server.' });
+    }
+
+    const fileName = `${album.name.replace(/[^a-z0-9]/gi, '_')}.zip`;
+    res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
+    res.setHeader('Content-Type', 'application/zip');
+    fs2.createReadStream(filePath).pipe(res);
+  } catch (e) {
+    console.log('downloadByToken error:', e);
+    return res.status(400).json({ success: false, message: e.message });
+  }
+};
+
 module.exports = {
   createPaidAlbum,
   getPaidAlbum,
   getAllPaidAlbum,
+  getPaidAlbumById,
+  updatePaidAlbum,
+  deletePaidAlbum,
+  handlePaidAlbumStatus,
   createAlbum,
   getAlbum,
   getAlbumById,
@@ -810,4 +981,5 @@ module.exports = {
   getMyPurchases,
   updateAlbum,
   downloadAlbum,
+  downloadByToken,
 };

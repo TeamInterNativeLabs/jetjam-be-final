@@ -52,12 +52,12 @@ const createUser = (async (req, res) => {
 const getUser = (async (req, res) => {
     try {
 
-        let { page, rowsPerPage, role, search, from, to, sortBy } = req.query
+        let { page, rowsPerPage, role, search, from, to, sortBy, active } = req.query
 
         let options = paginationHandler(page, rowsPerPage)
 
         let filter = {}
-        let sort = { fullName: 1 }
+        let sort = { first_name: 1 }
 
         if (role && role !== 'undefined') {
             filter = { ...filter, role }
@@ -76,6 +76,11 @@ const getUser = (async (req, res) => {
 
         if (from || to) {
             filter = { ...filter, createdAt: getDateRangeQuery(from, to) }
+        }
+
+        // Filter by account active status
+        if (active !== undefined && active !== '') {
+            filter.active = active === 'true' || active === true
         }
 
         if (sortBy) {
@@ -176,6 +181,27 @@ const updateUser = (async (req, res) => {
         // }
 
         let user = await User.findByIdAndUpdate(userId, req.body, { projection, new: true }).lean()
+
+        // If user is being inactivated, cancel all their active subscriptions
+        if (req.body.active === false || req.body.active === 'false') {
+            try {
+                const { cancelPayPalSubscription } = require('../helpers/paypal')
+                const activeSubs = await Subscription.find({ user: userId, active: true })
+                for (const sub of activeSubs) {
+                    try {
+                        await cancelPayPalSubscription(sub.method_subscription_id)
+                    } catch (e) {
+                        console.log('PayPal cancel on user deactivation (continuing):', e.message)
+                    }
+                    sub.active = false
+                    sub.canceledAt = new Date()
+                    await sub.save()
+                }
+                console.log(`[USER DEACTIVATED] Canceled ${activeSubs.length} subscription(s) for user ${userId}`)
+            } catch (e) {
+                console.log('Error canceling subscriptions on user deactivation:', e.message)
+            }
+        }
 
         // user.picture = user?.picture?.path
 

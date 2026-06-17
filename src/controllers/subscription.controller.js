@@ -179,6 +179,18 @@ const confirmSubscription = async (req, res) => {
         })
 
         await subscription.save()
+
+        // Mark all previous subscriptions for this user as inactive
+        // so only the new one shows as Active in history
+        await Subscription.updateMany(
+            {
+                user: req.decoded.id,
+                _id: { $ne: subscription._id },
+                active: true
+            },
+            { $set: { active: false } }
+        )
+
         await subscription.populate('package')
 
         return res.status(200).send({ success: true, data: subscription })
