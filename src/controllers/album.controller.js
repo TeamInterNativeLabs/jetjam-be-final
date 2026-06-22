@@ -239,11 +239,6 @@ const createPaidAlbum = async (req, res) => {
 
     console.log(payload);
 
-    await PaidAlbum.updateMany(
-      { active: true }, // Filter: only currently active albums
-      { $set: { active: false } } // Update: set active to false
-    );
-
     let paid_album = new PaidAlbum(payload);
     await paid_album.save();
 
