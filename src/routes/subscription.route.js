@@ -12,4 +12,7 @@ router.post('/confirm', AuthVerifier, subscriptionController.confirmSubscription
 
 router.post('/cancel', AuthVerifier, subscriptionController.cancelSubscription)
 
+// PayPal webhook endpoint (no auth required - PayPal calls this)
+router.post('/webhook', subscriptionController.handleWebhook)
+
 module.exports = router
