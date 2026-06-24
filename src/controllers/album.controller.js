@@ -942,9 +942,11 @@ const downloadByToken = async (req, res) => {
 
     const pathMod  = require('path');
     const fs2      = require('fs');
-    const filePath = pathMod.join(__dirname, '../../../', album.file.replace(/\\/g, '/'));
+    // Fix: correct path from controller to project root
+    const filePath = pathMod.join(__dirname, '../../', album.file.replace(/\\/g, '/'));
 
     if (!fs2.existsSync(filePath)) {
+      console.log(`File not found at: ${filePath}`);
       return res.status(404).json({ success: false, message: 'File not found on server.' });
     }
 
