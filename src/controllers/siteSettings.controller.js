@@ -1,5 +1,4 @@
-const SiteSettings = require("../Models/siteSettings.model");
-const CustomError = require("../Utils/customError");
+const SiteSettings = require("../models/siteSettings.model");
 
 exports.getSettings = async (req, res, next) => {
   try {
@@ -9,7 +8,7 @@ exports.getSettings = async (req, res, next) => {
     }
     return res.status(200).json({ status: true, data: settings });
   } catch (error) {
-    return next(new CustomError(error.message, 500));
+    return res.status(500).json({ error: error.message });
   }
 };
 
@@ -37,6 +36,6 @@ exports.updateSettings = async (req, res, next) => {
 
     return res.status(200).json({ status: true, message: "Settings updated successfully", data: settings });
   } catch (error) {
-    return next(new CustomError(error.message, 500));
+    return res.status(500).json({ error: error.message });
   }
 };
