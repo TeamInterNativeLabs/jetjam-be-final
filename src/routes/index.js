@@ -10,6 +10,7 @@ const generalRoutes = require('./general.route')
 const packageRoutes = require('./package.route')
 const subscriptionRoutes = require('./subscription.route')
 const snpvideoRoutes = require('./snpvideo.route')
+const siteSettingsRoutes = require('./siteSettings.route')
 
 router.use('/user', userRoutes)
 
@@ -28,5 +29,7 @@ router.use('/package', packageRoutes)
 router.use('/subscription', subscriptionRoutes)
 
 router.use('/snp-video', snpvideoRoutes)
+
+router.use('/settings', siteSettingsRoutes)
 
 module.exports = router
