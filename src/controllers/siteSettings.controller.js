@@ -28,6 +28,7 @@ exports.updateSettings = async (req, res, next) => {
     // image upload handle if there is an image in req.file or req.body
     if (req.file) {
       settings.fitMixImage = req.file.filename;
+      settings.fitMixVideoUrl = ""; // Clear video URL when image is uploaded
     } else if (fitMixImage !== undefined) {
       settings.fitMixImage = fitMixImage; // allow clearing or setting from body
     }
