@@ -286,13 +286,48 @@ async function handleSubscriptionActivated(event) {
         const subscriptionId = event.resource?.id
         if (!subscriptionId) return
 
-        const subscription = await Subscription.findOne({ 
+        let subscription = await Subscription.findOne({ 
             method_subscription_id: subscriptionId 
         }).populate('package user')
 
         if (!subscription) {
-            console.log(`[Webhook] Subscription not found: ${subscriptionId}`)
-            return
+            console.log(`[Webhook] Subscription not found: ${subscriptionId}. Attempting to recover...`)
+            try {
+                const accessToken = await paypalClient.getAccessToken()
+                const ppRes = await fetch(`${process.env.PAYPAL_API_URL}/v1/billing/subscriptions/${subscriptionId}`, {
+                    headers: { 'Authorization': `Bearer ${accessToken}`, 'Content-Type': 'application/json' }
+                })
+                if (ppRes.ok) {
+                    const ppSub = await ppRes.json()
+                    if (ppSub.custom_id) {
+                        const pkg = await Package.findOne({ method_plan_id: ppSub.plan_id })
+                        if (pkg) {
+                            subscription = new Subscription({
+                                method_subscription_id: subscriptionId,
+                                package: pkg._id,
+                                user: ppSub.custom_id,
+                                expiry: ppSub.billing_info?.next_billing_time || ppSub.billing_info?.last_payment?.time || new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+                                active: true
+                            })
+                            await subscription.save()
+                            
+                            await Subscription.updateMany(
+                                { user: ppSub.custom_id, _id: { $ne: subscription._id }, active: true },
+                                { $set: { active: false } }
+                            )
+                            await subscription.populate('package user')
+                            console.log(`[Webhook] Recovered and saved missing subscription ${subscriptionId} for user ${ppSub.custom_id}`)
+                        }
+                    }
+                }
+            } catch (err) {
+                console.log(`[Webhook] Recovery failed for ${subscriptionId}:`, err.message)
+            }
+
+            if (!subscription) {
+                console.log(`[Webhook] Could not recover subscription: ${subscriptionId}`)
+                return
+            }
         }
 
         // If this is a deferred subscription being activated, send email
@@ -331,13 +366,48 @@ async function handlePaymentCompleted(event) {
         const subscriptionId = event.resource?.billing_agreement_id
         if (!subscriptionId) return
 
-        const subscription = await Subscription.findOne({ 
+        let subscription = await Subscription.findOne({ 
             method_subscription_id: subscriptionId 
         }).populate('package user')
 
         if (!subscription) {
-            console.log(`[Webhook] Subscription not found for payment: ${subscriptionId}`)
-            return
+            console.log(`[Webhook] Subscription not found for payment: ${subscriptionId}. Attempting to recover...`)
+            try {
+                const accessToken = await paypalClient.getAccessToken()
+                const ppRes = await fetch(`${process.env.PAYPAL_API_URL}/v1/billing/subscriptions/${subscriptionId}`, {
+                    headers: { 'Authorization': `Bearer ${accessToken}`, 'Content-Type': 'application/json' }
+                })
+                if (ppRes.ok) {
+                    const ppSub = await ppRes.json()
+                    if (ppSub.custom_id) {
+                        const pkg = await Package.findOne({ method_plan_id: ppSub.plan_id })
+                        if (pkg) {
+                            subscription = new Subscription({
+                                method_subscription_id: subscriptionId,
+                                package: pkg._id,
+                                user: ppSub.custom_id,
+                                expiry: ppSub.billing_info?.next_billing_time || ppSub.billing_info?.last_payment?.time || new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+                                active: true
+                            })
+                            await subscription.save()
+                            
+                            await Subscription.updateMany(
+                                { user: ppSub.custom_id, _id: { $ne: subscription._id }, active: true },
+                                { $set: { active: false } }
+                            )
+                            await subscription.populate('package user')
+                            console.log(`[Webhook] Recovered and saved missing subscription ${subscriptionId} for user ${ppSub.custom_id}`)
+                        }
+                    }
+                }
+            } catch (err) {
+                console.log(`[Webhook] Recovery failed for ${subscriptionId}:`, err.message)
+            }
+
+            if (!subscription) {
+                console.log(`[Webhook] Could not recover subscription for payment: ${subscriptionId}`)
+                return
+            }
         }
 
         // Update expiry to next billing cycle (add 30 days)
